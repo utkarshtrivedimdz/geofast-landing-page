@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/growth.png";
-import image3 from "../assets/reflecting.png";
-import image4 from "../assets/looking-ahead.png";
+import image from "../assets/ingredients.png";
+import image3 from "../assets/wordle.webp";
+import image4 from "../assets/battleOfNationsPreview.webp";
 
 interface FeatureProps {
   title: string;
@@ -18,57 +18,48 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Battle of Nations",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Choose any country from around the globe and set up epic battles to see who will be the last nation standing! 🌍 Select from all real-world countries, each with unique strengths 💪, and fight until only one remains! 👑",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Wordle Wizard",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "A supercharged version called Wordle Wizard that takes wordle we love to the next level! 🎮✨ It's got everything we wished the original had PowerUps, Leaderboards to compete with friends 🏆 Daily challenges to keep it fresh 🎯",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Cooking Many More",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Stay tuned for our expanding collection of innovative games and apps! 🚀 Our creative team is working on exciting new titles that will bring fresh challenges and unique experiences to our growing platform 🎮 ⭐️",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
+  "Strategy",
+  "Puzzle",
+  "Action",
+  "Battle Royal",
+  "Geopolitics",
   "Minimalist",
 ];
 
 export const Features = () => {
   return (
-    <section
-      id="features"
-      className="container py-24 sm:py-32 space-y-8"
-    >
+    <section id="features" className="container py-24 sm:py-32 space-y-8">
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
         Many{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Great Games
         </span>
       </h2>
 
       <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
-            <Badge
-              variant="secondary"
-              className="text-sm"
-            >
+            <Badge variant="secondary" className="text-sm">
               {feature}
             </Badge>
           </div>

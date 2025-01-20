@@ -12,6 +12,7 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 interface TeamProps {
   imageUrl: string;
   name: string;
+  intro: string;
   position: string;
   socialNetworks: SociaNetworkslProps[];
 }
@@ -23,9 +24,10 @@ interface SociaNetworkslProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "https://i.pravatar.cc/150?img=35",
-    name: "Emma Smith",
-    position: "Product Manager",
+    imageUrl: "https://github.com/geofast.png",
+    name: "Valentijn Hoornaert",
+    position: "Founder and CEO",
+    intro: "Man of many talents, represented Belgium in Olympics",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -42,9 +44,10 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "https://i.pravatar.cc/150?img=60",
-    name: "John Doe",
-    position: "Tech Lead",
+    imageUrl: "https://github.com/utkarshtrivedimdz.png",
+    name: "Utkarsh Trivedi",
+    position: "CTO",
+    intro: "Tech Wizard, Serial Entrepreneur",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -57,37 +60,6 @@ const teamList: TeamProps[] = [
       {
         name: "Instagram",
         url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=36",
-    name: "Ashley Ross",
-    position: "Frontend Developer",
-    socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/utkarshtrivedi/",
-      },
-
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
-      },
-    ],
-  },
-  {
-    imageUrl: "https://i.pravatar.cc/150?img=17",
-    name: "Bruce Rogers",
-    position: "Backend Developer",
-    socialNetworks: [
-      {
-        name: "Linkedin",
-        url: "https://www.linkedin.com/in/utkarshtrivedi/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
       },
     ],
   },
@@ -108,10 +80,7 @@ export const Team = () => {
   };
 
   return (
-    <section
-      id="team"
-      className="container py-24 sm:py-32"
-    >
+    <section id="team" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold">
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           Our Dedicated{" "}
@@ -120,13 +89,12 @@ export const Team = () => {
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Meet our warriors behind the scenes
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
         {teamList.map(
-          ({ imageUrl, name, position, socialNetworks }: TeamProps) => (
+          ({ imageUrl, name, position, socialNetworks, intro }: TeamProps) => (
             <Card
               key={name}
               className="bg-muted/50 relative mt-8 flex flex-col justify-center items-center"
@@ -144,7 +112,7 @@ export const Team = () => {
               </CardHeader>
 
               <CardContent className="text-center pb-2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>{ intro }</p>
               </CardContent>
 
               <CardFooter>

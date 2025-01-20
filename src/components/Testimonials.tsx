@@ -14,48 +14,49 @@ interface TestimonialProps {
   comment: string;
 }
 
+const generateRealPhoto = (id: number) =>
+  `https://randomuser.me/api/portraits/men/${id}.jpg`;
+
 const testimonials: TestimonialProps[] = [
   {
-    image: "https://github.com/utkarshtrivedimdz.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    image: generateRealPhoto(1),
+    name: "Memo",
+    userName: "@memo",
+    comment: "A good and wonderful game that I advise everyone to play",
   },
   {
-    image: "https://github.com/utkarshtrivedimdz.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
+    image: generateRealPhoto(3),
+    name: "Flyingbum077 And more",
+    userName: "@flyingbum077",
     comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-  },
-
-  {
-    image: "https://github.com/utkarshtrivedimdz.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
-    comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+      "Played the hour it came out easy and fun to use. Can't wait for the online mode",
   },
   {
-    image: "https://github.com/utkarshtrivedimdz.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
+    image: generateRealPhoto(4),
+    name: "Servula Pacheco",
+    userName: "@crazyking",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Geofast is amazing, congratulations on the incredible work! Keep evolving the game!",
   },
   {
-    image: "https://github.com/utkarshtrivedimdz.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
+    image: generateRealPhoto(2),
+    name: "Mr Hot JupiterGC",
+    userName: "@hot_jupiter",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+      "My friend actually played this game and introduced this game too me cuz were both (geographic enthusiasts) it is a fun game too and thank you for creating this masterpiece",
   },
   {
-    image: "https://github.com/utkarshtrivedimdz.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
+    image: generateRealPhoto(5),
+    name: "Jonathan Carbajal",
+    userName: "@jonathan_carbajal",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Very fun and addictive, I bought the sandbox pass 10 minutes in and I'm having lots of fun",
+  },
+  {
+    image: generateRealPhoto(6),
+    name: "Jack",
+    userName: "@jack_dunker",
+    comment: "I was an og follower on tick tock",
   },
 ];
 
@@ -75,8 +76,7 @@ export const Testimonials = () => {
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+        Heartfealt reviews from our Geofast Battle of Nations Community 
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">

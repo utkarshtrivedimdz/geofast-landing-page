@@ -178,7 +178,7 @@ export const HeroCards = () => {
               <CardTitle>@geofast_</CardTitle>
             </a>
             <CardDescription className="text-md mt-2">
-              🌟 Be part of our growing TikTok family! With over 100k followers
+              🌟 Be part of our growing TikTok family! With over 97k followers
             </CardDescription>
           </div>
         </CardHeader>

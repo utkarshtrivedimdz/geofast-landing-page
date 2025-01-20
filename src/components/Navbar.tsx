@@ -29,18 +29,18 @@ const routeList: RouteProps[] = [
   },
   {
     href: "#testimonials",
-    label: "Investors",
+    label: "Community",
   },
   {
     href: "#pricing",
     label: "Careers",
   },
   {
-    href: "#faq",
+    href: "#team",
     label: "Team",
   },
   {
-    href: "#faq",
+    href: "#newsletter",
     label: "Contact Us",
   },
 ];
