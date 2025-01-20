@@ -10,7 +10,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
-import { LightBulbIcon } from "./Icons";
+import { TikTokIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 
 export const HeroCards = () => {
@@ -29,7 +29,7 @@ export const HeroCards = () => {
 
           <div className="flex flex-col">
             <CardTitle className="text-lg">Utkarsh Trivedi</CardTitle>
-            <CardDescription>@utkarshtrivedimdz</CardDescription>
+            <CardDescription className="font-normal text-primary">CTO</CardDescription>
           </div>
         </CardHeader>
 
@@ -61,7 +61,7 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/leoMirandaa"
+              href="https://github.com/utkarshtrivedimdz"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -94,7 +94,7 @@ export const HeroCards = () => {
 
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/leopoldo-miranda/"
+              href="https://www.linkedin.com/in/utkarshtrivedi/"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -112,7 +112,7 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            Free
+            BoN
             <Badge
               variant="secondary"
               className="text-sm text-primary"
@@ -121,24 +121,30 @@ export const HeroCards = () => {
             </Badge>
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">$0</span>
-            <span className="text-muted-foreground"> /month</span>
+            <span className="text-3xl font-bold">50k</span>
+            <span className="text-muted-foreground"> downloads</span>
           </div>
 
           <CardDescription>
-            Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.
+            Set up epic battles to see who will be the last nation standing
           </CardDescription>
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Start Free Trial</Button>
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
+          >
+          <Button className="w-full">Visit Playstore</Button>
+          </a>
         </CardContent>
 
         <hr className="w-4/5 m-auto mb-4" />
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["4 Team member", "4 GB Storage", "Upto 6 pages"].map(
+            {["200 Countries", "4 Game Modes", "50 Supported Languages"].map(
               (benefit: string) => (
                 <span
                   key={benefit}
@@ -156,14 +162,19 @@ export const HeroCards = () => {
       {/* Service */}
       <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
-          <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
-            <LightBulbIcon />
-          </div>
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://www.tiktok.com/@geofast_"
+          >
+            <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
+              <TikTokIcon />
+            </div>
+          </a>
           <div>
-            <CardTitle>Light & dark mode</CardTitle>
+            <CardTitle>@geofast_</CardTitle>
             <CardDescription className="text-md mt-2">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Consectetur
-              natusm.
+              🌟 Be part of our growing TikTok family! With over 100k followers
             </CardDescription>
           </div>
         </CardHeader>

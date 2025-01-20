@@ -1,17 +1,17 @@
 {
-  "name": "shadcn-landing-page-template",
-  "description": "Landing page template utilizing Shadcn, React, Typescript, and Tailwind CSS for rapid development and responsive design.",
+  "name": "geofast-landing-page",
+  "description": "Mobile game studio buidling awesome games",
   "author": {
-    "name": "Leopoldo Miranda",
-    "email": "leomirandadev@gmail.com",
-    "url": "https://github.com/leoMirandaa"
+    "name": "Utkarsh Trivedi",
+    "email": "er.utkarshtrivedi@gmail.com",
+    "url": "https://github.com/utkarshtrivedimdz"
   },
   "license": "MIT",
   "keywords": [
     "react",
     "typescript",
-    "shadcn",
-    "shadcn/ui",
+    "geofast-games",
+    "geofast",
     "tailwind",
     "landing-page",
     "template",
