@@ -4,11 +4,11 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
+  //CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Check } from "lucide-react";
+//import { Check } from "lucide-react";
 
 enum PopularPlanType {
   NO = 0,
