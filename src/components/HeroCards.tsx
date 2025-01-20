@@ -1,5 +1,4 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Badge } from "./ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import {
   Card,
@@ -10,7 +9,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
-import { LogoIcon, TikTokIcon } from "./Icons";
+import { TikTokIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import battleOfNationsLogo from "../assets/BoN.png";
 
