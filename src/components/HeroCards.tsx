@@ -10,8 +10,9 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
-import { TikTokIcon } from "./Icons";
+import { LogoIcon, TikTokIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import battleOfNationsLogo from "../assets/BoN.png";
 
 export const HeroCards = () => {
   return (
@@ -29,7 +30,9 @@ export const HeroCards = () => {
 
           <div className="flex flex-col">
             <CardTitle className="text-lg">Utkarsh Trivedi</CardTitle>
-            <CardDescription className="font-normal text-primary">CTO</CardDescription>
+            <CardDescription className="font-normal text-primary">
+              CTO
+            </CardDescription>
           </div>
         </CardHeader>
 
@@ -44,7 +47,7 @@ export const HeroCards = () => {
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Valentijn  Hoornaert</CardTitle>
+          <CardTitle className="text-center">Valentijn Hoornaert</CardTitle>
           <CardDescription className="font-normal text-primary">
             CEO
           </CardDescription>
@@ -52,8 +55,8 @@ export const HeroCards = () => {
 
         <CardContent className="text-center pb-2">
           <p>
-            I really enjoy transforming ideas into games that
-            exceed expectations
+            I really enjoy transforming ideas into games that exceed
+            expectations
           </p>
         </CardContent>
 
@@ -112,13 +115,12 @@ export const HeroCards = () => {
       <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
-            BoN
-            <Badge
-              variant="secondary"
-              className="text-sm text-primary"
-            >
-              Most popular
-            </Badge>
+            Battle of Nations
+            <img
+              src={battleOfNationsLogo}
+              alt=""
+              className="w-[75px] object-contain rounded-lg"
+            />
           </CardTitle>
           <div>
             <span className="text-3xl font-bold">50k</span>
@@ -136,7 +138,7 @@ export const HeroCards = () => {
             target="_blank"
             href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
           >
-          <Button className="w-full">Visit Playstore</Button>
+            <Button className="w-full">Visit Playstore</Button>
           </a>
         </CardContent>
 
@@ -146,10 +148,7 @@ export const HeroCards = () => {
           <div className="space-y-4">
             {["200 Countries", "4 Game Modes", "50 Supported Languages"].map(
               (benefit: string) => (
-                <span
-                  key={benefit}
-                  className="flex"
-                >
+                <span key={benefit} className="flex">
                   <Check className="text-green-500" />{" "}
                   <h3 className="ml-2">{benefit}</h3>
                 </span>
@@ -172,7 +171,13 @@ export const HeroCards = () => {
             </div>
           </a>
           <div>
-            <CardTitle>@geofast_</CardTitle>
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://www.tiktok.com/@geofast_"
+            >
+              <CardTitle>@geofast_</CardTitle>
+            </a>
             <CardDescription className="text-md mt-2">
               🌟 Be part of our growing TikTok family! With over 100k followers
             </CardDescription>
