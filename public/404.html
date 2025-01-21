@@ -1,19 +1,17 @@
-<!-- public/404.html -->
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
-    <title>Redirecting...</title>
+    <title>Page Not Found</title>
     <script type="text/javascript">
-        var pathSegmentsToKeep = 0;
+        // Single Page Apps for GitHub Pages
+        // Redirects to home page and adds the path as a hash route
         var l = window.location;
+        var path = l.pathname.slice(1); // Remove leading slash
         l.replace(
             l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
+            '/#' + (path ? '/' + path : '')
         );
     </script>
 </head>
