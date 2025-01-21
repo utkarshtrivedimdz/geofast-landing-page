@@ -1,4 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useParams,
+  Navigate,
+} from "react-router-dom";
 
 import { About } from "./components/About";
 //import { Cta } from "./components/Cta";
@@ -40,6 +46,11 @@ function Home() {
   );
 }
 
+function RedirectHandler() {
+  const { page } = useParams();
+  return <Navigate to={`/${page}`} replace />;
+}
+
 function App() {
   return (
     <Router>
@@ -47,6 +58,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/?/:page" element={<RedirectHandler />} />
       </Routes>
       <Footer />
       <ScrollToTop />

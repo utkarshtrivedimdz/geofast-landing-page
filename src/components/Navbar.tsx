@@ -24,23 +24,23 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#features",
+    href: "/#features",
     label: "Our Games",
   },
   {
-    href: "#testimonials",
+    href: "/#testimonials",
     label: "Community",
   },
   {
-    href: "#pricing",
+    href: "/#pricing",
     label: "Careers",
   },
   {
-    href: "#team",
+    href: "/#team",
     label: "Team",
   },
   {
-    href: "#newsletter",
+    href: "/#newsletter",
     label: "Contact Us",
   },
 ];
@@ -66,10 +66,7 @@ export const Navbar = () => {
           <span className="flex md:hidden">
             <ModeToggle />
 
-            <Sheet
-              open={isOpen}
-              onOpenChange={setIsOpen}
-            >
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger className="px-2">
                 <Menu
                   className="flex md:hidden h-5 w-5"
