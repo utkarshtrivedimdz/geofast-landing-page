@@ -3,49 +3,116 @@ import { useLayoutEffect } from "react";
 
 interface PolicySectionProps {
   title: string;
-  content: string;
+  content: React.ReactNode;
 }
 
 const policyData: PolicySectionProps[] = [
   {
     title: "Introduction",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    content: (
+      <div>
+        Welcome to Geofast: Battle of Nations, developed by Geofast. This
+        Privacy Policy explains what types of information may be collected when
+        you use our game and how this information is handled.
+        <br />
+        <br />
+        We value your privacy and want to ensure transparency about any data
+        related to your use of our app.
+      </div>
+    ),
   },
   {
-    title: "Information We Collect",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus hendrerit nulla, non tincidunt justo condimentum vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Sed vehicula metus at nisi ullamcorper, in tempus leo rutrum.",
+    title: "Information Collection and Use",
+    content: (
+      <div>
+        Geofast: Battle of Nations does not directly collect any personal data.
+        However, some data may be collected:
+        <br />
+        <br />
+        <ol className="list-decimal pl-6 space-y-2">
+          <li>
+            <strong>AdMob</strong> - We use AdMob for rewarded ads within the
+            game, which may collect analytics information for ad-related
+            purposes. AdMob is operated by Google.
+          </li>
+          <li>
+            <strong>Google Play Store</strong> - The Google Play Store may
+            collect data necessary for in-app purchases. Geofast does not access
+            or store this data.
+          </li>
+          <li>
+            <strong>Game Progression</strong> - Your game progress is stored
+            locally on your device. We do not have access to or control over
+            this data.
+          </li>
+        </ol>
+      </div>
+    ),
   },
   {
-    title: "How We Use Your Information",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nunc id eleifend tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc. Nulla facilisi. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    title: "Permissions Used",
+    content: (
+      <div>
+        Our app requests the following permissions:
+        <br />
+        <br />
+        <ol className="list-decimal pl-6 space-y-2">
+          <li>
+            <strong>Access Network State</strong> - to check if there is an
+            internet connection available.
+          </li>
+          <li>
+            <strong>Internet</strong> - to load ads and handle in-app purchases.
+          </li>
+          <li>
+            <strong>Billing Service</strong> - to facilitate in-app purchases
+            through the Google Play billing service.
+          </li>
+        </ol>
+      </div>
+    ),
   },
   {
-    title: "Information Sharing",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "Children's Privacy",
+    content: (
+      <div>
+        Geofast: Battle of Nations may display age restrictions on the Google
+        Play Store, which vary based on regional regulations.
+        <br />
+        <br />
+        We encourage parents to monitor children's activities online to ensure a
+        safe experience.
+        <br />
+        <br />
+        Please note that this app includes ads and in-app purchases.
+      </div>
+    ),
   },
   {
     title: "Data Security",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id eleifend tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc. Sed vehicula metus at nisi ullamcorper, in tempus leo rutrum.",
+    content: (
+      <div>
+        Geofast does not store any personal data on its own servers as we do not
+        collect data ourselves.
+        <br />
+        <br />
+        Data related to ads and in-app purchases may be collected by AdMob and
+        Google Play Store under their respective privacy policies.
+      </div>
+    ),
   },
   {
-    title: "Your Rights",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.",
-  },
-  {
-    title: "Changes to This Policy",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.",
-  },
-  {
-    title: "Contact Us",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.",
+    title: "Changes to this Privacy Policy",
+    content: (
+      <div>
+        We may update this policy to reflect changes in our practices or legal
+        requirements.
+        <br />
+        <br />
+        Any updates will be posted on this page, so please check back
+        periodically.
+      </div>
+    ),
   },
 ];
 
@@ -53,18 +120,19 @@ export const PrivacyPolicy = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   });
+
   return (
     <section id="privacy-policy" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Privacy
+        Geofast: Battle of Nations
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          Policy{" "}
+          Privacy Policy{" "}
         </span>
       </h2>
 
       <p className="text-xl text-muted-foreground mb-8">
-        Last updated: January 21, 2025
+        Last updated: November 12, 2024
       </p>
 
       <div className="space-y-6">
@@ -74,7 +142,7 @@ export const PrivacyPolicy = () => {
               <CardTitle className="text-2xl">{title}</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground text-lg">{content}</p>
+              <div className="text-muted-foreground text-lg">{content}</div>
             </CardContent>
           </Card>
         ))}
@@ -85,10 +153,10 @@ export const PrivacyPolicy = () => {
           If you have any questions about this Privacy Policy, please contact us
           at:{" "}
           <a
-            href="mailto:privacy@example.com"
+            href="mailto:help@geofastgames.com"
             className="text-primary hover:underline"
           >
-            privacy@example.com
+            help@geofastgames.com
           </a>
         </p>
       </div>

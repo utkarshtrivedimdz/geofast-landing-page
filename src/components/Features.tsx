@@ -79,7 +79,7 @@ export const Features = () => {
               <img
                 src={image}
                 alt="About feature"
-                className="w-[200px] lg:w-[300px] mx-auto"
+                className="w-[200px] lg:w-[300px] mx-auto rounded-xl"
               />
             </CardFooter>
           </Card>
