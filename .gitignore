@@ -23,5 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 repopack-output.txt
-package-lock.json
-package-lock.json
