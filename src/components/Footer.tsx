@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { LogoIcon } from "./Icons";
 
 export const Footer = () => {
@@ -96,13 +97,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <a
-              rel="noreferrer noopener"
-              href="/privacy"
-              className="opacity-60 hover:opacity-100"
-            >
-              Privacy Policy
-            </a>
+            <Link to="/privacy">Privacy Policy</Link>
           </div>
 
           <div>
