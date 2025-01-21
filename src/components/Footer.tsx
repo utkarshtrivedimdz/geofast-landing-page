@@ -98,10 +98,10 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="/privacy"
               className="opacity-60 hover:opacity-100"
             >
-              Pricing
+              Privacy Policy
             </a>
           </div>
 

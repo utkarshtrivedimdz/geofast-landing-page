@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import { About } from "./components/About";
 //import { Cta } from "./components/Cta";
 //import { FAQ } from "./components/FAQ";
@@ -14,11 +16,11 @@ import { ScrollToTop } from "./components/ScrollToTop";
 import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
 import "./App.css";
+import PrivacyPolicy from "./components/PrivacyPolicy";
 
-function App() {
+function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Features />
       <About />
@@ -26,7 +28,6 @@ function App() {
       <Pricing />
       <Team />
       <Newsletter />
-      <Footer />
       <ScrollToTop />
       {/**
       <Sponsors /> 
@@ -36,6 +37,20 @@ function App() {
       <FAQ />
       **/}
     </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/privacy" element={<PrivacyPolicy />} />
+      </Routes>
+      <Footer />
+      <ScrollToTop />
+    </Router>
   );
 }
 
