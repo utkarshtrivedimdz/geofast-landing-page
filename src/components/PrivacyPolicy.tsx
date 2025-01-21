@@ -40,6 +40,11 @@ const policyData: PolicySectionProps[] = [
             collect data necessary for in-app purchases. Geofast does not access
             or store this data.
           </li>
+           <li>
+            <strong>Apple App Store</strong> - The App Store may
+            collect data necessary for in-app purchases. Geofast does not access
+            or store this data.
+          </li>
           <li>
             <strong>Game Progression</strong> - Your game progress is stored
             locally on your device. We do not have access to or control over
