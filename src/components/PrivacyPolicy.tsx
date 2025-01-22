@@ -25,13 +25,13 @@ const policyData: PolicySectionProps[] = [
     title: "Information Collection and Use",
     content: (
       <div>
-        Geofast: Battle of Nations does not directly collect any personal data.
-        However, some data may be collected:
+        Geofast: Battle of Nations does not directly collect or store any personal data. 
+        However, third-party services integrated into the game may collect limited data for specific purposes:
         <br />
         <br />
         <ol className="list-decimal pl-6 space-y-2">
           <li>
-            <strong>AdMob</strong> - We use AdMob for rewarded ads within the
+            <strong>AdMob</strong> - We use AdMob for interstitial ads within the
             game, which may collect analytics information for ad-related
             purposes. AdMob is operated by Google.
           </li>
@@ -45,12 +45,10 @@ const policyData: PolicySectionProps[] = [
             collect data necessary for in-app purchases. Geofast does not access
             or store this data.
           </li>
-          <li>
-            <strong>Game Progression</strong> - Your game progress is stored
-            locally on your device. We do not have access to or control over
-            this data.
-          </li>
         </ol>
+        <br />
+        Your game progress is stored locally
+        on your device. We do not have access to or control over this data.
       </div>
     ),
   },
@@ -82,7 +80,7 @@ const policyData: PolicySectionProps[] = [
     content: (
       <div>
         Geofast: Battle of Nations may display age restrictions on the Google
-        Play Store, which vary based on regional regulations.
+        Play Store and the Apple App Store, which vary based on regional regulations.
         <br />
         <br />
         We encourage parents to monitor children's activities online to ensure a
@@ -101,8 +99,9 @@ const policyData: PolicySectionProps[] = [
         collect data ourselves.
         <br />
         <br />
-        Data related to ads and in-app purchases may be collected by AdMob and
-        Google Play Store under their respective privacy policies.
+        Data related to ads and in-app purchases may be collected by AdMob, 
+        Google Play Store, and the Apple App Store under their respective 
+        privacy policies.
       </div>
     ),
   },
@@ -137,7 +136,7 @@ export const PrivacyPolicy = () => {
       </h2>
 
       <p className="text-xl text-muted-foreground mb-8">
-        Last updated: November 12, 2024
+        Last updated: January 23, 2025
       </p>
 
       <div className="space-y-6">
@@ -156,7 +155,7 @@ export const PrivacyPolicy = () => {
       <div className="mt-12 text-muted-foreground text-center">
         <p>
           If you have any questions about this Privacy Policy, please contact us
-          at:{" "}
+          at:{" "}.
           <a
             href="mailto:help@geofastgames.com"
             className="text-primary hover:underline"
