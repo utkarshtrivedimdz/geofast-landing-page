@@ -155,13 +155,14 @@ export const PrivacyPolicy = () => {
       <div className="mt-12 text-muted-foreground text-center">
         <p>
           If you have any questions about this Privacy Policy, please contact us
-          at:{" "}.
+          at:{" "}
           <a
             href="mailto:help@geofastgames.com"
             className="text-primary hover:underline"
           >
             help@geofastgames.com
           </a>
+          .
         </p>
       </div>
     </section>
