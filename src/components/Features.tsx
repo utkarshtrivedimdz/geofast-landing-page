@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/card";
 import image from "../assets/ingredients.png";
 import image3 from "../assets/wordle.webp";
-import image4 from "../assets/battleOfNationsPreview.webp";
+import image4 from "../assets/BattleOfNations2.webp";
 
 interface FeatureProps {
   title: string;
