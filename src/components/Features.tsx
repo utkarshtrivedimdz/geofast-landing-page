@@ -20,7 +20,7 @@ const features: FeatureProps[] = [
   {
     title: "Single Player Mode",
     description:
-      "Dominate the battleground with your chosen nation in a quick battle, or embark on a campaign (coming soon)!",
+      "Dominate the battleground with your nation in a quick battle, or embark on a campaign (coming soon)!",
     image: image1,
   },
   {
@@ -56,9 +56,9 @@ export const Features = () => {
       </h2>
 
       {/* Descriptive text under the title */}
-      <p className="text-muted-foreground md:text-center text-lg">
+      <p className="text-muted-foreground md:text-center text-lg max-w-3xl">
         Pick a nation and conquer the world in a thrilling battle royale showdown!<br />
-        In Geofast: Battle of Nations, choose any country from around the globe and set up
+        In <em>Geofast: Battle of Nations</em>, choose any country from around the globe and set up
         epic battles to see who will be the last nation standing.
         Select from all real-world countries, each with unique strengths,
         and fight until only one remains!<br />
