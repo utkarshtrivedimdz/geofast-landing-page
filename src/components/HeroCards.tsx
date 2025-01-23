@@ -9,13 +9,11 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
+import { TikTokIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import battleOfNationsLogo from "../assets/playstore_logo.png";
 import image_playstore from "../assets/playstore.webp";
 import image_appstore from "../assets/appstore.webp";
-import instagramIcon from "../assets/instagram.png";
-import tiktokIcon from "../assets/tiktok.png";
-import youtubeIcon from "../assets/youtube.png";
 
 export const HeroCards = () => {
   return (
@@ -129,12 +127,13 @@ export const HeroCards = () => {
             <span className="text-3xl font-bold">79k</span>
             <span className="text-muted-foreground"> installs</span>
           </div>
-
+      
           <CardDescription>
             Pick a country and conquer the world in a thrilling battle royale showdown!
           </CardDescription>
         </CardHeader>
-
+      
+        {/* Replaced Button with App Store and Play Store images */}
         <CardContent className="flex flex-col items-center gap-4">
           <a
             rel="noreferrer noopener"
@@ -159,9 +158,9 @@ export const HeroCards = () => {
             />
           </a>
         </CardContent>
-
+      
         <hr className="w-4/5 m-auto mb-4" />
-
+      
         <CardFooter className="flex">
           <div className="space-y-4">
             {["Free", "Premium Sandbox Mode", "53 Supported Languages", "Frequent Updates"].map(
@@ -176,36 +175,31 @@ export const HeroCards = () => {
         </CardFooter>
       </Card>
 
-      {/* Community */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[35px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader className="flex flex-col items-center">
-          <CardTitle className="text-center">Be part of our Growing Community</CardTitle>
-          <CardDescription className="text-center text-sm">Daily Content!</CardDescription>
-        </CardHeader>
-
-        <CardContent className="flex flex-col items-center gap-4">
+      {/* Service */}
+      <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+        <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
           <a
-            href="https://www.instagram.com/geofast_/"
-            target="_blank"
             rel="noreferrer noopener"
-          >
-            <img src={instagramIcon} alt="Instagram" className="h-10 object-contain" />
-          </a>
-          <a
+            target="_blank"
             href="https://www.tiktok.com/@geofast_"
-            target="_blank"
-            rel="noreferrer noopener"
           >
-            <img src={tiktokIcon} alt="TikTok" className="h-10 object-contain" />
+            <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
+              <TikTokIcon />
+            </div>
           </a>
-          <a
-            href="https://www.youtube.com/@geofast_"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <img src={youtubeIcon} alt="YouTube" className="h-10 object-contain" />
-          </a>
-        </CardContent>
+          <div>
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://www.tiktok.com/@geofast_"
+            >
+              <CardTitle>@geofast_</CardTitle>
+            </a>
+            <CardDescription className="text-md mt-2">
+              🌟 Be part of our growing TikTok family! With over 97k followers
+            </CardDescription>
+          </div>
+        </CardHeader>
       </Card>
     </div>
   );
