@@ -30,7 +30,7 @@ const pricingList: PricingProps[] = [
   {
     title: "Gameplay Writer",
     popular: PopularPlanType.NO,
-    description: "Design gameplay features and improve the player experience.",
+    description: "Design exciting new gameplay features.",
     buttonText: "Apply Now",
   },
   {
