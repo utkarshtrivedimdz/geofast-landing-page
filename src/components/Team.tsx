@@ -35,19 +35,11 @@ const teamList: TeamProps[] = [
     imageUrl: "https://github.com/utkarshtrivedimdz.png",
     name: "Utkarsh Trivedi",
     position: "CTO",
-    intro: "Tech Wizard, Serial Entrepreneur",
+    intro: "Tech Wizard",
     socialNetworks: [
       {
         name: "Linkedin",
         url: "https://www.linkedin.com/in/utkarshtrivedi/",
-      },
-      {
-        name: "Facebook",
-        url: "https://www.facebook.com/",
-      },
-      {
-        name: "Instagram",
-        url: "https://www.instagram.com/",
       },
     ],
   },
