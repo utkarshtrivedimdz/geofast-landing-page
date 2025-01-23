@@ -90,7 +90,7 @@ export const Features = () => {
           <img
             src={image_playstore}
             alt="Get it on Google Play"
-            className="w-48"
+            className="h-12 object-contain"
           />
         </a>
         <a
@@ -101,7 +101,7 @@ export const Features = () => {
           <img
             src={image_appstore}
             alt="Download on the App Store"
-            className="w-48"
+            className="h-12 object-contain"
           />
         </a>
       </div>
