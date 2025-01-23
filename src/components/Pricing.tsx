@@ -57,11 +57,11 @@ export const Pricing = () => {
   return (
     <section id="pricing" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold text-center">
-        Join the
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          Geofast Team{" "}
+          Join{" "}
         </span>
+        the Team
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
         We’re on the lookout for passionate and talented professionals to join our growing team.
