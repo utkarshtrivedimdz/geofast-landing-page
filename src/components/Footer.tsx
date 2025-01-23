@@ -89,7 +89,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          <div>&copy; 2025 Geofast</div>
+          <div>&copy; 2025 Geofast Games</div>
           <div>
             Landing page made by{" "}
             <a
