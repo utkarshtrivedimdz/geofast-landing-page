@@ -82,18 +82,23 @@ export const Footer = () => {
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Battle of Nations</h3>
           <div>
-            <a
+            <Link
+              to="/feedback"
               className="opacity-60 hover:opacity-100"
             >
-            <Link to="/privacy">Feedback</Link>
+              Feedback
+            </Link>
           </div>
           <div>
-            <a
+            <Link
+              to="/privacy"
               className="opacity-60 hover:opacity-100"
             >
-            <Link to="/privacy">Privacy Policy</Link>
+              Privacy Policy
+            </Link>
           </div>
         </div>
+
       </section>
 
       <section className="container pb-14 text-center">
