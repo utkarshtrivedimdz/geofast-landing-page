@@ -80,7 +80,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
+          <h3 className="font-bold text-lg">Privacy Policy</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -92,7 +92,7 @@ export const Footer = () => {
           </div>
 
           <div>
-            <Link to="/privacy">Privacy Policy</Link>
+            <Link to="/privacy">Geofast: Battle of Nations</Link>
           </div>
 
           <div>
