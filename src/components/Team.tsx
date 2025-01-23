@@ -64,7 +64,7 @@ export const Team = () => {
       <h2 className="text-3xl md:text-4xl font-bold">
         Geofast Games
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Core Team{" "}
+           Core Team{" "}
         </span>
       </h2>
 
