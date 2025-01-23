@@ -20,30 +20,29 @@ const features: FeatureProps[] = [
   {
     title: "Single Player Mode",
     description:
-      "Choose any country from around the globe and set up epic battles to see who will be the last nation standing! 🌍 Select from all real-world countries, each with unique strengths 💪, and fight until only one remains! 👑",
+      "Dominate the battleground with your chosen nation!",
     image: image1,
   },
   {
     title: "Multiplayer Mode",
     description:
-      "Test",
+      "Challenge friends on one device! Online multiplayer is coming very soon!",
     image: image2,
   },
   {
     title: "Sandbox Mode",
     description:
-      "Stay tuned for our expanding collection of innovative games and apps! 🚀 Our creative team is working on exciting new titles that will bring fresh challenges and unique experiences to our growing platform 🎮 ⭐️",
+      "Create custom battles with adjustable nation strengths (Premium feature).",
     image: image3,
   },
 ];
 
 const featureList: string[] = [
-  "Strategy",
-  "Puzzle",
-  "Action",
   "Battle Royal",
   "Geopolitics",
+  "Strategy",
   "Minimalist",
+  "Mobile",
 ];
 
 export const Features = () => {
@@ -55,6 +54,19 @@ export const Features = () => {
           Battle of Nations
         </span>
       </h2>
+
+      {/* Descriptive text under the title */}
+      <p className="text-muted-foreground md:text-center text-lg">
+        Pick a nation and conquer the world in a thrilling battle royale showdown!<br />
+        In Geofast: Battle of Nations, choose any country from around the globe and set up
+        epic battles to see who will be the last nation standing.
+        Select from all real-world countries, each with unique strengths,
+        and fight until only one remains!<br />
+        Each country's power is based on real-world military strength,
+        and strategy is key. Take turns firing, but if a country’s hearts are gone,
+        the attacker gains an extra turn! Discover special shots like grenades,
+        nukes, poison spells and revival spells to turn the tide.
+      </p>
 
       <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
@@ -88,3 +100,4 @@ export const Features = () => {
     </section>
   );
 };
+
