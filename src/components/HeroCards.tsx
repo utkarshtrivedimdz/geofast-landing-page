@@ -12,6 +12,8 @@ import { Check, Linkedin } from "lucide-react";
 import { TikTokIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import battleOfNationsLogo from "../assets/playstore_logo.png";
+import image_playstore from "../assets/playstore.webp";
+import image_appstore from "../assets/appstore.webp";
 
 export const HeroCards = () => {
   return (
@@ -111,7 +113,7 @@ export const HeroCards = () => {
       </Card>
 
       {/* Pricing */}
-      <Card className="absolute top-[150px] left-[50px] w-72  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute top-[150px] left-[50px] w-72 drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <CardTitle className="flex item-center justify-between">
             Battle of Nations
@@ -125,24 +127,40 @@ export const HeroCards = () => {
             <span className="text-3xl font-bold">79k</span>
             <span className="text-muted-foreground"> installs</span>
           </div>
-
+      
           <CardDescription>
             Pick a country and conquer the world in a thrilling battle royale showdown!
           </CardDescription>
         </CardHeader>
-
-        <CardContent>
+      
+        {/* Replaced Button with App Store and Play Store images */}
+        <CardContent className="flex flex-col items-center gap-4">
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
           >
-            <Button className="w-full">Visit Playstore</Button>
+            <img
+              src={image_playstore}
+              alt="Get it on Google Play"
+              className="h-12 object-contain"
+            />
+          </a>
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
+          >
+            <img
+              src={image_appstore}
+              alt="Download on the App Store"
+              className="h-12 object-contain"
+            />
           </a>
         </CardContent>
-
+      
         <hr className="w-4/5 m-auto mb-4" />
-
+      
         <CardFooter className="flex">
           <div className="space-y-4">
             {["Free", "Premium Sandbox Mode", "53 Supported Languages", "Frequent Updates"].map(
