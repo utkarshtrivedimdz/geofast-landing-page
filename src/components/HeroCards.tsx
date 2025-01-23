@@ -10,7 +10,8 @@ import {
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
 import { TikTokIcon } from "./Icons";
-import battleOfNationsLogo from "../assets/logo_playstore_512.png";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
+import battleOfNationsLogo from "../assets/BoN.png";
 
 export const HeroCards = () => {
   return (
@@ -62,7 +63,40 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/valentijn-hoornaert-a6a511343"
+              href="https://github.com/utkarshtrivedimdz"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">Github icon</span>
+              <GitHubLogoIcon className="w-5 h-5" />
+            </a>
+            <a
+              rel="noreferrer noopener"
+              href="https://twitter.com/leo_mirand4"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">X icon</span>
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                className="fill-foreground w-5 h-5"
+              >
+                <title>X</title>
+                <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+              </svg>
+            </a>
+
+            <a
+              rel="noreferrer noopener"
+              href="https://www.linkedin.com/in/utkarshtrivedi/"
               target="_blank"
               className={buttonVariants({
                 variant: "ghost",
@@ -88,12 +122,12 @@ export const HeroCards = () => {
             />
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">79k</span>
-            <span className="text-muted-foreground"> installs</span>
+            <span className="text-3xl font-bold">50k</span>
+            <span className="text-muted-foreground"> downloads</span>
           </div>
 
           <CardDescription>
-            Pick a country and conquer the world in a thrilling battle royale showdown!
+            Set up epic battles to see who will be the last nation standing
           </CardDescription>
         </CardHeader>
 
@@ -111,7 +145,7 @@ export const HeroCards = () => {
 
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["Free", "Premium Sandbox Mode", "53 Supported Languages", "Frequent Updates"].map(
+            {["200 Countries", "4 Game Modes", "50 Supported Languages"].map(
               (benefit: string) => (
                 <span key={benefit} className="flex">
                   <Check className="text-green-500" />{" "}
