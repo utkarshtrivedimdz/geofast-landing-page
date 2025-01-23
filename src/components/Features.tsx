@@ -20,7 +20,7 @@ const features: FeatureProps[] = [
   {
     title: "Single Player Mode",
     description:
-      "Dominate the battleground with your nation in a quick battle, or embark on a campaign (coming soon)!",
+      "Dominate the battleground in a quick battle, or embark on a campaign (coming soon)!",
     image: image1,
   },
   {
