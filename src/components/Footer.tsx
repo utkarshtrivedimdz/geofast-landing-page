@@ -14,7 +14,7 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            geofast-games
+            Geofast Games
           </a>
         </div>
 
