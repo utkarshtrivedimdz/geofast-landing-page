@@ -35,7 +35,7 @@ const teamList: TeamProps[] = [
     imageUrl: "https://github.com/utkarshtrivedimdz.png",
     name: "Utkarsh Trivedi",
     position: "CTO",
-    intro: "Tech Wizard",
+    intro: "Tech Wizard.",
     socialNetworks: [
       {
         name: "Linkedin",
@@ -63,13 +63,13 @@ export const Team = () => {
     <section id="team" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold">
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Our Dedicated{" "}
+          Geofast Games{" "}
         </span>
-        Crew
+        Core Team
       </h2>
 
       <p className="mt-4 mb-10 text-xl text-muted-foreground">
-        Meet our warriors behind the scenes
+        
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-10">
