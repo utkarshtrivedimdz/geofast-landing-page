@@ -29,10 +29,10 @@ function Home() {
     <>
       <Hero />
       <Features />
-      <About />
       <Testimonials />
-      <Pricing />
+      <About />
       <Team />
+      <Pricing />
       <Newsletter />
       <ScrollToTop />
       {/**
