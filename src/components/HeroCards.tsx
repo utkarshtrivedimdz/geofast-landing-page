@@ -175,32 +175,59 @@ export const HeroCards = () => {
         </CardFooter>
       </Card>
 
-      {/* Service */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[35px]  drop-shadow-xl shadow-black/10 dark:shadow-white/10">
-        <CardHeader className="space-y-1 flex md:flex-row justify-start items-start gap-4">
+      {/* Community Card */}
+      <Card className="absolute w-[350px] -right-[10px] bottom-[35px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+        <CardHeader>
+          <div className="text-center space-y-2">
+            <CardTitle className="text-xl font-bold">
+              Be part of our Growing Community
+            </CardTitle>
+            <CardDescription className="text-sm">Daily Content!</CardDescription>
+          </div>
+        </CardHeader>
+        
+        <CardContent className="flex flex-col items-center gap-4 mt-4">
+          {/* Instagram */}
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://www.instagram.com/geofast_/"
+          >
+            <img
+              src="../assets/instagram.png"
+              alt="Instagram"
+              className="h-12 w-12 object-contain"
+            />
+          </a>
+      
+          {/* TikTok */}
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.tiktok.com/@geofast_"
           >
-            <div className="mt-1 bg-primary/20 p-1 rounded-2xl">
-              <TikTokIcon />
-            </div>
+            <img
+              src="../assets/tiktok.png"
+              alt="TikTok"
+              className="h-12 w-12 object-contain"
+            />
           </a>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              target="_blank"
-              href="https://www.tiktok.com/@geofast_"
-            >
-              <CardTitle>@geofast_</CardTitle>
-            </a>
-            <CardDescription className="text-md mt-2">
-              🌟 Be part of our growing TikTok family! With over 97k followers
-            </CardDescription>
-          </div>
-        </CardHeader>
+      
+          {/* YouTube */}
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://www.youtube.com/@geofast_"
+          >
+            <img
+              src="../assets/youtube.png"
+              alt="YouTube"
+              className="h-12 w-12 object-contain"
+            />
+          </a>
+        </CardContent>
       </Card>
+
     </div>
   );
 };
