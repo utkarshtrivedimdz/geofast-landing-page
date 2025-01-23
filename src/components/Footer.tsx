@@ -145,9 +145,13 @@ export const Footer = () => {
         </div>
       </section>
 
-      <section className="container pb-14 text-center">
-        <h3>
-          &copy; 2025 Landing page made by{" "}
+     <section className="container pb-14 text-center">
+      <h3>
+        <div>
+          &copy; 2025 Geofast
+        </div>
+        <div>
+          Landing page made by{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
@@ -156,8 +160,10 @@ export const Footer = () => {
           >
             Utkarsh Trivedi
           </a>
-        </h3>
-      </section>
+        </div>
+      </h3>
+    </section>
+
     </footer>
   );
 };
