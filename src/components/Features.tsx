@@ -9,6 +9,8 @@ import {
 import image1 from "../assets/singleplayer.webp";
 import image2 from "../assets/multiplayer.webp";
 import image3 from "../assets/sandbox.webp";
+import image_appstore from "../assets/appstore.webp";
+import image_playstore from "../assets/playstore.webp";
 
 interface FeatureProps {
   title: string;
@@ -78,6 +80,32 @@ export const Features = () => {
         ))}
       </div>
 
+      {/* App Store and Play Store Buttons */}
+      <div className="flex justify-center gap-8 mt-8">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={image_playstore}
+            alt="Get it on Google Play"
+            className="w-48"
+          />
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={image_appstore}
+            alt="Download on the App Store"
+            className="w-48"
+          />
+        </a>
+      </div>
+
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map(({ title, description, image }: FeatureProps) => (
           <Card key={title}>
@@ -100,4 +128,3 @@ export const Features = () => {
     </section>
   );
 };
-
