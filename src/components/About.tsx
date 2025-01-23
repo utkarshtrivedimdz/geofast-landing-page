@@ -1,5 +1,4 @@
 import { Statistics } from "./Statistics";
-import logo from "../assets/logo_play.png";
 
 export const About = () => {
   return (
@@ -9,11 +8,6 @@ export const About = () => {
     >
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
-          <img
-            src={logo}
-            alt=""
-            className="w-[300px] object-contain rounded-lg"
-          />
           <div className="bg-green-0 flex flex-col justify-between">
             <div className="pb-6">
               <h2 className="text-3xl md:text-4xl font-bold">
