@@ -82,9 +82,15 @@ export const Footer = () => {
         <div className="flex flex-col gap-2">
           <h3 className="font-bold text-lg">Battle of Nations</h3>
           <div>
+            <a
+              className="opacity-60 hover:opacity-100"
+            >
             <Link to="/privacy">Feedback</Link>
           </div>
           <div>
+            <a
+              className="opacity-60 hover:opacity-100"
+            >
             <Link to="/privacy">Privacy Policy</Link>
           </div>
         </div>
