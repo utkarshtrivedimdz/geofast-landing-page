@@ -14,24 +14,12 @@ export const Statistics = () => {
       description: "Player Countries",
     },
     {
-      quantity: "2",
-      description: "Games",
-    },
-    {
-      quantity: "2",
-      description: "Core Team Members",
-    },
-    {
       quantity: "98K",
       description: "TikTok Followers",
     },
     {
       quantity: "163M",
       description: "TikTok Views",
-    },
-    {
-      quantity: "11M",
-      description: "Instagram Views",
     },
   ];
 
