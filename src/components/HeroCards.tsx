@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
 import { TikTokIcon } from "./Icons";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import battleOfNationsLogo from "../assets/logo_playstore_512.png";
 
 export const HeroCards = () => {
