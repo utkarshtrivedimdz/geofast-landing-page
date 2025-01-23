@@ -87,13 +87,15 @@ export const Testimonials = () => {
             >
               <CardHeader className="flex flex-row items-center gap-4 pb-2">
                 <Avatar>
-                  <AvatarImage
-                    alt=""
-                    src={image}
-                  />
-                  <AvatarFallback>OM</AvatarFallback>
+                  {image ? (
+                    <AvatarImage
+                      alt={name}
+                      src={image}
+                    />
+                  ) : (
+                    <AvatarFallback>{name[0]}</AvatarFallback>
+                  )}
                 </Avatar>
-
                 <div className="flex flex-col">
                   <CardTitle className="text-lg">{name}</CardTitle>
                   <CardDescription>{userName}</CardDescription>
