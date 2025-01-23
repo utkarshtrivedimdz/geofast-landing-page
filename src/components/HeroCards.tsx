@@ -122,12 +122,12 @@ export const HeroCards = () => {
             />
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">50k</span>
-            <span className="text-muted-foreground"> downloads</span>
+            <span className="text-3xl font-bold">79k</span>
+            <span className="text-muted-foreground"> installs</span>
           </div>
 
           <CardDescription>
-            Set up epic battles to see who will be the last nation standing
+            Pick a country and conquer the world in a thrilling battle royale showdown!
           </CardDescription>
         </CardHeader>
 
