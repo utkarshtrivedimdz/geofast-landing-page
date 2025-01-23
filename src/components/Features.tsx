@@ -26,7 +26,7 @@ const features: FeatureProps[] = [
   {
     title: "Multiplayer Mode",
     description:
-      "A supercharged version called Wordle Wizard that takes wordle we love to the next level! 🎮✨ It's got everything we wished the original had PowerUps, Leaderboards to compete with friends 🏆 Daily challenges to keep it fresh 🎯",
+      "Test",
     image: image2,
   },
   {
