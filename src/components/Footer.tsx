@@ -80,15 +80,9 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Geofast: Battle of Nations</h3>
+          <h3 className="font-bold text-lg">Battle of Nations</h3>
           <div>
-            <Link to="/privacy">Suggestions</Link>
-          </div>
-          <div>
-            <Link to="/privacy">Report a bug</Link>
-          </div>
-          <div>
-            <Link to="/privacy">Translation error</Link>
+            <Link to="/privacy">Feedback</Link>
           </div>
           <div>
             <Link to="/privacy">Privacy Policy</Link>
