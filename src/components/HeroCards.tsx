@@ -48,7 +48,7 @@ export const HeroCards = () => {
           />
           <CardTitle className="text-center">Valentijn Hoornaert</CardTitle>
           <CardDescription className="font-normal text-primary">
-            CEO
+            Founder & CEO
           </CardDescription>
         </CardHeader>
 
