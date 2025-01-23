@@ -19,41 +19,41 @@ const generateRealPhoto = (id: number) =>
 
 const testimonials: TestimonialProps[] = [
   {
-    //image: generateRealPhoto(1),
+    image: generateRealPhoto(1),
     name: "Memo",
     userName: "@memo",
     comment: "A good and wonderful game that I advise everyone to play",
   },
   {
-    //image: generateRealPhoto(3),
+    image: generateRealPhoto(3),
     name: "Flyingbum077 And more",
     userName: "@flyingbum077",
     comment:
       "Played the hour it came out easy and fun to use. Can't wait for the online mode",
   },
   {
-    //image: generateRealPhoto(4),
+    image: generateRealPhoto(4),
     name: "Servula Pacheco",
     userName: "@crazyking",
     comment:
       "Geofast is amazing, congratulations on the incredible work! Keep evolving the game!",
   },
   {
-    //image: generateRealPhoto(2),
+    image: generateRealPhoto(2),
     name: "Mr Hot JupiterGC",
     userName: "@hot_jupiter",
     comment:
       "My friend actually played this game and introduced this game too me cuz were both (geographic enthusiasts) it is a fun game too and thank you for creating this masterpiece",
   },
   {
-    //image: generateRealPhoto(5),
+    image: generateRealPhoto(5),
     name: "Jonathan Carbajal",
     userName: "@jonathan_carbajal",
     comment:
       "Very fun and addictive, I bought the sandbox pass 10 minutes in and I'm having lots of fun",
   },
   {
-    //image: generateRealPhoto(6),
+    image: generateRealPhoto(6),
     name: "Jack",
     userName: "@jack_dunker",
     comment: "I was an og follower on tick tock",
