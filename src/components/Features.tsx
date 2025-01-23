@@ -56,7 +56,7 @@ export const Features = () => {
       </h2>
 
       {/* Descriptive text under the title */}
-      <p className="text-muted-foreground md:text-center text-lg max-w-3xl">
+      <p className="text-muted-foreground md:text-center text-lg mx-auto max-w-3xl">
         Pick a nation and conquer the world in a thrilling battle royale showdown!<br />
         In <em>Geofast: Battle of Nations</em>, choose any country from around the globe and set up
         epic battles to see who will be the last nation standing.
