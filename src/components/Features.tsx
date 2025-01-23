@@ -40,7 +40,7 @@ const features: FeatureProps[] = [
 ];
 
 const featureList: string[] = [
-  "Battle Royal",
+  "Battle Royale",
   "Geopolitics",
   "Strategy",
   "Minimalist",
