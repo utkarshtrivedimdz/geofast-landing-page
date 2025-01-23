@@ -50,26 +50,32 @@ const featureList: string[] = [
 export const Features = () => {
   return (
     <section id="battleofnations" className="container py-24 sm:py-32 space-y-8">
-      <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Geofast:{" "}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Battle of Nations
-        </span>
-      </h2>
+      {/* Grey Box for Description */}
+      <div className="bg-muted/50 border rounded-lg py-12">
+        <div className="px-6">
+          <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
+            Geofast:{" "}
+            <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+              Battle of Nations
+            </span>
+          </h2>
 
-      {/* Descriptive text under the title */}
-      <p className="text-muted-foreground md:text-center text-lg mx-auto max-w-3xl">
-        Pick a nation and conquer the world in a thrilling battle royale showdown!<br />
-        In <em>Geofast: Battle of Nations</em>, choose any country from around the globe and set up
-        epic battles to see who will be the last nation standing.
-        Select from all real-world countries, each with unique strengths,
-        and fight until only one remains!<br />
-        Each country's power is based on real-world military strength,
-        and strategy is key. Take turns firing, but if a country’s hearts are gone,
-        the attacker gains an extra turn! Discover special shots like grenades,
-        nukes, poison spells and revival spells to turn the tide.
-      </p>
+          {/* Descriptive text inside the grey box */}
+          <p className="text-muted-foreground md:text-center text-lg mx-auto max-w-3xl mt-4">
+            Pick a nation and conquer the world in a thrilling battle royale showdown!<br />
+            In <em>Geofast: Battle of Nations</em>, choose any country from around the globe and set up
+            epic battles to see who will be the last nation standing.
+            Select from all real-world countries, each with unique strengths,
+            and fight until only one remains!<br />
+            Each country's power is based on real-world military strength,
+            and strategy is key. Take turns firing, but if a country’s hearts are gone,
+            the attacker gains an extra turn! Discover special shots like grenades,
+            nukes, poison spells and revival spells to turn the tide.
+          </p>
+        </div>
+      </div>
 
+      {/* Feature Tags */}
       <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
@@ -106,6 +112,7 @@ export const Features = () => {
         </a>
       </div>
 
+      {/* Features Cards */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {features.map(({ title, description, image }: FeatureProps) => (
           <Card key={title}>
