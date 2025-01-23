@@ -66,18 +66,6 @@ export const HeroCards = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://github.com/utkarshtrivedimdz"
-              target="_blank"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              <span className="sr-only">Github icon</span>
-              <GitHubLogoIcon className="w-5 h-5" />
-            </a>
-            <a
-              rel="noreferrer noopener"
               href="https://twitter.com/leo_mirand4"
               target="_blank"
               className={buttonVariants({
