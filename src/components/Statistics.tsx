@@ -10,6 +10,10 @@ export const Statistics = () => {
       description: "Play Store Installs",
     },
     {
+      quantity: "149",
+      description: "Player Countries",
+    },
+    {
       quantity: "98K",
       description: "TikTok Followers",
     },
