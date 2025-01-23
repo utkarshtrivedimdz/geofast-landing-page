@@ -9,6 +9,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { Check, Linkedin } from "lucide-react";
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import battleOfNationsLogo from "../assets/playstore_logo.png";
 import image_playstore from "../assets/playstore.webp";
 import image_appstore from "../assets/appstore.webp";
@@ -64,6 +65,18 @@ export const HeroCards = () => {
 
         <CardFooter>
           <div>
+            <a
+              rel="noreferrer noopener"
+              href="https://github.com/utkarshtrivedimdz"
+              target="_blank"
+              className={buttonVariants({
+                variant: "ghost",
+                size: "sm",
+              })}
+            >
+              <span className="sr-only">Github icon</span>
+              <GitHubLogoIcon className="w-5 h-5" />
+            </a>
             <a
               rel="noreferrer noopener"
               href="https://twitter.com/leo_mirand4"
