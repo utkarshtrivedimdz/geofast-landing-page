@@ -24,15 +24,15 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "/#features",
-    label: "Our Games",
+    href: "/#battleofnations",
+    label: "Battle of Nations",
   },
   {
-    href: "/#testimonials",
-    label: "Community",
+    href: "/#about",
+    label: "About Us",
   },
   {
-    href: "/#pricing",
+    href: "/#careers",
     label: "Careers",
   },
   {
@@ -40,7 +40,7 @@ const routeList: RouteProps[] = [
     label: "Team",
   },
   {
-    href: "/#newsletter",
+    href: "/#contact",
     label: "Contact Us",
   },
 ];
