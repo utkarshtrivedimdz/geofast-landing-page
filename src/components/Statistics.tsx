@@ -21,6 +21,10 @@ export const Statistics = () => {
       quantity: "163M",
       description: "TikTok Views",
     },
+    {
+      quantity: "11M",
+      description: "Instagram Views",
+    },
   ];
 
   return (
