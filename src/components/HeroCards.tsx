@@ -11,7 +11,7 @@ import {
 import { Check, Linkedin } from "lucide-react";
 import { TikTokIcon } from "./Icons";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import battleOfNationsLogo from "../assets/BoN.png";
+import battleOfNationsLogo from "../assets/logo playstore_512.png";
 
 export const HeroCards = () => {
   return (
