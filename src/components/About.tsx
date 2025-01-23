@@ -24,13 +24,13 @@ export const About = () => {
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
                 Geofast Games was founded in December 2024 with a passion for creating unique and engaging gaming experiences.
-                Our first game, Geofast: Battle of Nations, was released on the Google Play Store on December 7, 2024.
+                Our first game, <em>Geofast: Battle of Nations</em>, was released on the Google Play Store on December 7, 2024.
                 Even before its release, the game went viral on platforms like TikTok and Instagram,
                 where videos about it garnered millions of views, building a wave of anticipation. 
                 This early excitement translated into a strong launch, with players from all over the world
                 joining to form a very diverse community. While the game is still young,
                 we're actively working on exciting new features to enhance the experience.
-                Additionally, Geofast: Battle of Nations will soon be available on the Apple App Store,
+                Additionally, <em>Geofast: Battle of Nations</em> will soon be available on the Apple App Store,
                 making it accessible to even more players worldwide.
               </p>
             </div>
