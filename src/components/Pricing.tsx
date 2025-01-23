@@ -73,16 +73,16 @@ export const Pricing = () => {
   return (
     <section id="pricing" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold text-center">
-        Join our
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
           {" "}
-          Team{" "}
+          Join{" "}
         </span>
+        the Geofast Team
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
-        At Geofast Games, we're always looking for passionate and talented
-        individuals to join our innovative team. Explore exciting career
-        opportunities in game development, design, and marketing.
+        We’re on the lookout for passionate and talented individuals to join our growing team.
+        If you specialize in game development, gameplay writing, game art, marketing,
+        or community management, we’d love to hear from you.
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (
