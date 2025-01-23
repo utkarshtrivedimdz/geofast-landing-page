@@ -28,6 +28,8 @@ const teamList: TeamProps[] = [
     name: "Valentijn Hoornaert",
     position: "Founder and CEO",
     intro: "Thinking about my next move in my thinking chair.",
+    socialNetworks: [
+    ],
   },
   {
     imageUrl: "https://github.com/utkarshtrivedimdz.png",
