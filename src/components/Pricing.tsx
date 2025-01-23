@@ -65,8 +65,6 @@ export const Pricing = () => {
       </h2>
       <h3 className="text-xl text-center text-muted-foreground pt-4 pb-8">
         We’re on the lookout for passionate and talented professionals to join our growing team.
-        If you specialize in game development, gameplay writing, game art, marketing,
-        or community management, we’d love to hear from you.
       </h3>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {pricingList.map((pricing: PricingProps) => (
