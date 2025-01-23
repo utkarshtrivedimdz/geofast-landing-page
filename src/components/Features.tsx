@@ -6,9 +6,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import image from "../assets/ingredients.png";
-import image3 from "../assets/wordle.webp";
-import image4 from "../assets/BattleOfNations2.webp";
+import image1 from "../assets/singleplayer.webp";
+import image2 from "../assets/multiplayer.webp";
+import image3 from "../assets/sandbox.webp";
 
 interface FeatureProps {
   title: string;
@@ -18,22 +18,22 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Battle of Nations",
+    title: "Single Player Mode",
     description:
       "Choose any country from around the globe and set up epic battles to see who will be the last nation standing! 🌍 Select from all real-world countries, each with unique strengths 💪, and fight until only one remains! 👑",
-    image: image4,
+    image: image1,
   },
   {
-    title: "Wordle Wizard",
+    title: "Multiplayer Mode",
     description:
       "A supercharged version called Wordle Wizard that takes wordle we love to the next level! 🎮✨ It's got everything we wished the original had PowerUps, Leaderboards to compete with friends 🏆 Daily challenges to keep it fresh 🎯",
-    image: image3,
+    image: image2,
   },
   {
-    title: "Cooking Many More",
+    title: "Sandbox Mode",
     description:
       "Stay tuned for our expanding collection of innovative games and apps! 🚀 Our creative team is working on exciting new titles that will bring fresh challenges and unique experiences to our growing platform 🎮 ⭐️",
-    image: image,
+    image: image3,
   },
 ];
 
@@ -50,9 +50,9 @@ export const Features = () => {
   return (
     <section id="features" className="container py-24 sm:py-32 space-y-8">
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Our{" "}
+        Geofast:{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Games
+          Battle of Nations
         </span>
       </h2>
 
