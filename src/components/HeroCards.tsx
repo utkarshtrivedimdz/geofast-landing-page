@@ -183,7 +183,7 @@ export const HeroCards = () => {
         <CardHeader>
           <div className="text-center space-y-2">
             <CardTitle className="text-xl font-bold">
-              Be part of our Growing Community
+              Be Part of our Growing Community
             </CardTitle>
             <CardDescription className="text-sm">Daily Content!</CardDescription>
           </div>
