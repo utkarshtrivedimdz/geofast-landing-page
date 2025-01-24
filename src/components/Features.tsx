@@ -11,8 +11,8 @@ import image2 from "../assets/multiplayer.webp";
 import image3 from "../assets/sandbox.webp";
 import image_appstore from "../assets/appstore.webp";
 import image_playstore from "../assets/playstore.webp";
+import appIcon from "../assets/playstore_logo.png"; // Import the app icon
 
-// New icons for the cards
 import singleIcon from "../assets/single_green.webp";
 import multiIcon from "../assets/multi_green.webp";
 import sandboxIcon from "../assets/sandbox_green.webp";
@@ -59,12 +59,20 @@ const featureList: string[] = [
 export const Features = () => {
   return (
     <section id="battleofnations" className="container py-24 sm:py-32 space-y-8">
-      <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Geofast:{" "}
-        <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Battle of Nations
-        </span>
-      </h2>
+      {/* App Icon and Title */}
+      <div className="text-center">
+        <img
+          src={appIcon}
+          alt="Geofast App Icon"
+          className="w-24 h-24 mx-auto rounded-lg mb-4" // Centered and styled with rounded corners
+        />
+        <h2 className="text-3xl lg:text-4xl font-bold">
+          Geofast:{" "}
+          <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
+            Battle of Nations
+          </span>
+        </h2>
+      </div>
 
       {/* Descriptive text under the title */}
       <p className="text-muted-foreground md:text-center text-lg mx-auto max-w-3xl">
