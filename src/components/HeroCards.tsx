@@ -125,7 +125,7 @@ export const HeroCards = () => {
       </Card>
 
      {/* Community Card */}
-      <Card className="absolute right-[20px] top-[260px] w-80 drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute right-[20px] top-[240px] w-80 drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <div className="text-center space-y-2">
             <CardTitle className="text-xl font-bold">
