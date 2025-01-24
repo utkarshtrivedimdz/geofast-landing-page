@@ -1,4 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Check } from "lucide-react";
 import { buttonVariants } from "@/components/ui/button";
 import {
   Card,
