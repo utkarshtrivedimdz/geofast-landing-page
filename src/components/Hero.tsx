@@ -1,8 +1,9 @@
-import { Button } from "./ui/button";
 import { HeroCards } from "./HeroCards";
 import tiktokIcon from "../assets/tiktok_green.webp";
 import instagramIcon from "../assets/instagram_green.webp";
 import youtubeIcon from "../assets/youtube_green.webp";
+import playstoreIcon from "../assets/playstore2.webp";
+import appstoreIcon from "../assets/appstore2.webp";
 
 export const Hero = () => {
   return (
@@ -25,19 +26,39 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
-          TESTESTEST Geofast Games is a cutting-edge game development studio, creating
+          Geofast Games is a game development studio based in Belgium, creating
           engaging and innovative mobile games. Our latest hit, Battle of
-          Nations, has taken the word game market by storm.TESTESTEST
+          Nations, has taken the word game market by storm.
         </p>
 
-        <a href="#newsletter">
-          <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-full md:w-1/3">TESTEST</Button>
-          </div>
-        </a>
+        {/* Store Icons */}
+        <div className="flex justify-start gap-6 mt-8">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={playstoreIcon}
+              alt="Play Store"
+              className="h-10 w-10 object-contain"
+            />
+          </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={appstoreIcon}
+              alt="App Store"
+              className="h-10 w-10 object-contain"
+            />
+          </a>
+        </div>
 
         {/* Social Media Icons */}
-        <div className="flex justify-center lg:justify-start gap-6 mt-6">
+        <div className="flex justify-start gap-6 mt-6">
           <a
             href="https://www.tiktok.com/@geofast_"
             target="_blank"
