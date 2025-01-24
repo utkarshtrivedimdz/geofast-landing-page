@@ -31,8 +31,8 @@ function Home() {
       <Features />
       <Testimonials />
       <About />
-      <Team />
       <Pricing />
+      <Team />
       <Newsletter />
       <ScrollToTop />
       {/**
