@@ -61,7 +61,7 @@ export const Newsletter = () => {
             <CardHeader>
               <CardTitle className="text-xl font-semibold">Business Opportunities</CardTitle>
               <CardDescription className="text-muted-foreground">
-                We are actively looking for investors and business partners to grow our vision.
+                We are actively looking for investors and business partners to grow our game studio.
               </CardDescription>
             </CardHeader>
             <CardContent>
