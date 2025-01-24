@@ -25,7 +25,7 @@ export const Hero = () => {
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 lg:mx-0">
-          Geofast Games is a game development studio based in Belgium,
+          <b>Geofast Games</b> is a game development studio based in Belgium,
           creating engaging mobile games designed for players from all over the world.
           Our goal is to develop games accessible to everyone, regardless of experience or language.
           Our first mobile game, <em>Geofast: Battle of Nations</em>, had a strong and successful launch,
