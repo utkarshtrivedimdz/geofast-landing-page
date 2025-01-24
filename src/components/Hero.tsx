@@ -8,7 +8,7 @@ import appstoreIcon from "../assets/appstore2.webp";
 export const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
-      <div className="text-center lg:text-start space-y-6">
+      <div className="text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
@@ -25,7 +25,7 @@ export const Hero = () => {
           </h2>
         </main>
 
-        <p className="text-xl text-muted-foreground md:w-10/12 mx-auto lg:mx-0">
+        <p className="text-xl text-muted-foreground md:w-10/12 lg:mx-0">
           Geofast Games is a game development studio based in Belgium, creating
           engaging and innovative mobile games. Our latest hit, Battle of
           Nations, has taken the word game market by storm.
@@ -34,7 +34,7 @@ export const Hero = () => {
         {/* Store Icons */}
         <div className="flex justify-start gap-6 mt-8">
           <a
-            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+            href="https://play.google.com/store/apps/dev?id=7184241621050076321"
             target="_blank"
             rel="noreferrer"
           >
@@ -45,7 +45,7 @@ export const Hero = () => {
             />
           </a>
           <a
-            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+            href="https://play.google.com/store/apps/dev?id=7184241621050076321"
             target="_blank"
             rel="noreferrer"
           >
