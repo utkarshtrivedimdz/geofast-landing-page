@@ -12,23 +12,25 @@ export const Hero = () => {
         <main className="text-5xl md:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
-              TEST Innovating
+              Accessible
             </span>{" "}
-            the future
+            Mobile Gaming,
           </h1>{" "}
           of{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Mobile
+              Unlimited
             </span>{" "}
-            gaming TEST
+            Fun
           </h2>
         </main>
 
         <p className="text-xl text-muted-foreground md:w-10/12 lg:mx-0">
-          Geofast Games is a game development studio based in Belgium, creating
-          engaging and innovative mobile games. Our latest hit, Battle of
-          Nations, has taken the word game market by storm.
+          Geofast Games is a game development studio based in Belgium,
+          creating engaging mobile games designed for players from all over the world.
+          Our goal is to develop games accessible to everyone, regardless of experience or language.
+          Our first mobile game, Geofast: Battle of Nations, had a strong and successful launch,
+          capturing the interest of players globally.
         </p>
 
         {/* Store Icons */}
