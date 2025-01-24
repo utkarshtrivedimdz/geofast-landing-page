@@ -14,6 +14,9 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import battleOfNationsLogo from "../assets/playstore_logo.png";
 import image_playstore from "../assets/playstore.webp";
 import image_appstore from "../assets/appstore.webp";
+import tiktokIcon from "../assets/tiktok.webp";
+import instagramIcon from "../assets/instagram.webp";
+import youtubeIcon from "../assets/youtube.webp";
 
 export const HeroCards = () => {
   return (
@@ -195,7 +198,7 @@ export const HeroCards = () => {
             href="https://www.tiktok.com/@geofast_"
           >
             <img
-              src="../assets/tiktok.webp"
+              src={tiktokIcon}
               alt="TikTok"
               className="h-12 w-12 object-contain"
             />
@@ -208,7 +211,7 @@ export const HeroCards = () => {
             href="https://www.instagram.com/geofast_/"
           >
             <img
-              src="../assets/instagram.webp"
+              src={instagramIcon}
               alt="Instagram"
               className="h-12 w-12 object-contain"
             />
@@ -221,7 +224,7 @@ export const HeroCards = () => {
             href="https://www.youtube.com/@geofast_"
           >
             <img
-              src="../assets/youtube.webp"
+              src={youtubeIcon}
               alt="YouTube"
               className="h-12 w-12 object-contain"
             />
