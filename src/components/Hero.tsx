@@ -16,11 +16,11 @@ export const Hero = () => {
             </span>{" "}
             Gaming,
           </h1>{" "}
+          Unlimited{" "}
           <h2 className="inline">
             <span className="inline bg-gradient-to-r from-[#61DAFB] via-[#1fc0f1] to-[#03a3d7] text-transparent bg-clip-text">
-              Unlimited
+              Fun
             </span>{" "}
-            Fun
           </h2>
         </main>
 
