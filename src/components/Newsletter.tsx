@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import supportIcon from "../assets/support.webp";
 import businessIcon from "../assets/business.webp";
+import { Button } from "@/components/ui/button";
 
 export const Newsletter = () => {
   return (
@@ -21,16 +22,16 @@ export const Newsletter = () => {
           Us
         </h3>
 
-        <div className="grid gap-8 mt-12 mx-auto md:w-[600px]">
+        <div className="grid gap-8 mt-12 mx-auto md:w-[400px]">
           {/* Questions Card */}
-          <Card className="relative bg-muted/50 drop-shadow-xl shadow-black/10">
+          <Card className="relative bg-muted/50 drop-shadow-md shadow-black/10">
             <img
               src={supportIcon}
               alt="Support"
-              className="absolute top-4 right-4 h-10 w-10"
+              className="absolute top-4 right-4 h-8 w-8"
             />
             <CardHeader>
-              <CardTitle className="text-2xl font-semibold">Support</CardTitle>
+              <CardTitle className="text-xl font-semibold">Support</CardTitle>
               <CardDescription className="text-muted-foreground">
                 Have a question or need assistance? We're here to help.
               </CardDescription>
@@ -38,22 +39,27 @@ export const Newsletter = () => {
             <CardContent>
               <a
                 href="mailto:help@geofastgames.com?subject=Support Request"
-                className="bg-primary text-white px-6 py-2 rounded-lg shadow-md hover:bg-primary/80 transition inline-block"
+                className="w-full"
               >
-                Reach Out
+                <Button
+                  variant="secondary"
+                  className="bg-muted text-primary w-full hover:bg-muted/80"
+                >
+                  Reach Out
+                </Button>
               </a>
             </CardContent>
           </Card>
 
           {/* Business Opportunities Card */}
-          <Card className="relative bg-muted/50 drop-shadow-xl shadow-black/10">
+          <Card className="relative bg-muted/50 drop-shadow-md shadow-black/10">
             <img
               src={businessIcon}
               alt="Business Opportunities"
-              className="absolute top-4 right-4 h-10 w-10"
+              className="absolute top-4 right-4 h-8 w-8"
             />
             <CardHeader>
-              <CardTitle className="text-2xl font-semibold">Business Inquiries</CardTitle>
+              <CardTitle className="text-xl font-semibold">Business Opportunities</CardTitle>
               <CardDescription className="text-muted-foreground">
                 We are actively looking for investors and business partners to grow our vision.
               </CardDescription>
@@ -61,9 +67,14 @@ export const Newsletter = () => {
             <CardContent>
               <a
                 href="mailto:help@geofastgames.com?subject=Business Inquiry"
-                className="bg-primary text-white px-6 py-2 rounded-lg shadow-md hover:bg-primary/80 transition inline-block"
+                className="w-full"
               >
-                Reach Out
+                <Button
+                  variant="secondary"
+                  className="bg-muted text-primary w-full hover:bg-muted/80"
+                >
+                  Reach Out
+                </Button>
               </a>
             </CardContent>
           </Card>
