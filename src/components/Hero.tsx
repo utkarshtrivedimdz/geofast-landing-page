@@ -19,27 +19,27 @@ export const Hero = () => {
           <img
             src={revivalIcon}
             alt="Revival"
-            className="h-10 w-10 object-contain opacity-50"
+            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
           />
           <img
             src={grenadeIcon}
             alt="Grenade"
-            className="h-10 w-10 object-contain opacity-50"
+            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
           />
           <img
             src={heartIcon}
             alt="Heart"
-            className="h-10 w-10 object-contain opacity-50"
+            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
           />
           <img
             src={poisonIcon}
             alt="Poison"
-            className="h-10 w-10 object-contain opacity-50"
+            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
           />
           <img
             src={allianceIcon}
             alt="Alliance"
-            className="h-10 w-10 object-contain opacity-50"
+            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
           />
         </div>
 
