@@ -14,9 +14,9 @@ import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import battleOfNationsLogo from "../assets/playstore_logo.png";
 import image_playstore from "../assets/playstore.webp";
 import image_appstore from "../assets/appstore.webp";
-import tiktokIcon from "../assets/tiktok.webp";
-import instagramIcon from "../assets/instagram.webp";
-import youtubeIcon from "../assets/youtube.webp";
+import tiktokIcon from "../assets/tiktok_green.webp";
+import instagramIcon from "../assets/instagram_green.webp";
+import youtubeIcon from "../assets/youtube_green.webp";
 
 export const HeroCards = () => {
   return (
