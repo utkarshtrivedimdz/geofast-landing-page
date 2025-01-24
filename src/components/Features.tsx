@@ -12,10 +12,16 @@ import image3 from "../assets/sandbox.webp";
 import image_appstore from "../assets/appstore.webp";
 import image_playstore from "../assets/playstore.webp";
 
+// New icons for the cards
+import singleIcon from "../assets/single_green.webp";
+import multiIcon from "../assets/multi_green.webp";
+import sandboxIcon from "../assets/sandbox_green.webp";
+
 interface FeatureProps {
   title: string;
   description: string;
   image: string;
+  icon: string;
 }
 
 const features: FeatureProps[] = [
@@ -24,18 +30,21 @@ const features: FeatureProps[] = [
     description:
       "Dominate the battleground in a quick battle, or embark on a campaign (coming soon)!",
     image: image1,
+    icon: singleIcon,
   },
   {
     title: "Multiplayer Mode",
     description:
       "Challenge friends locally on one device or compete online (coming soon)!",
     image: image2,
+    icon: multiIcon,
   },
   {
     title: "Sandbox Mode",
     description:
       "Create custom battles with adjustable nation strengths (Premium feature).",
     image: image3,
+    icon: sandboxIcon,
   },
 ];
 
@@ -103,8 +112,14 @@ export const Features = () => {
       </div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {features.map(({ title, description, image }: FeatureProps) => (
-          <Card key={title}>
+        {features.map(({ title, description, image, icon }: FeatureProps) => (
+          <Card key={title} className="relative">
+            {/* Icon in the top-right corner */}
+            <img
+              src={icon}
+              alt={`${title} icon`}
+              className="absolute top-2 right-2 h-8 w-8"
+            />
             <CardHeader>
               <CardTitle>{title}</CardTitle>
             </CardHeader>
