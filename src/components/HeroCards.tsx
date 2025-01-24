@@ -179,7 +179,7 @@ export const HeroCards = () => {
       </Card>
 
       {/* Community Card */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[35px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute w-[350px] -right-[10px] bottom-[10px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <div className="text-center space-y-2">
             <CardTitle className="text-xl font-bold">
@@ -188,33 +188,36 @@ export const HeroCards = () => {
             <CardDescription className="text-sm">Daily Content!</CardDescription>
           </div>
         </CardHeader>
-        
-        <CardContent className="flex flex-col items-center gap-4 mt-4">
-          
+      
+        <CardContent className="flex flex-col gap-4 mt-4">
           {/* TikTok */}
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.tiktok.com/@geofast_"
+            className="flex items-center gap-4"
           >
             <img
               src={tiktokIcon}
               alt="TikTok"
               className="h-12 w-12 object-contain"
             />
+            <span className="text-muted-foreground text-sm">@geofast_</span>
           </a>
-          
+      
           {/* Instagram */}
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.instagram.com/geofast_/"
+            className="flex items-center gap-4"
           >
             <img
               src={instagramIcon}
               alt="Instagram"
               className="h-12 w-12 object-contain"
             />
+            <span className="text-muted-foreground text-sm">@geofast_</span>
           </a>
       
           {/* YouTube */}
@@ -222,16 +225,18 @@ export const HeroCards = () => {
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.youtube.com/@geofast_"
+            className="flex items-center gap-4"
           >
             <img
               src={youtubeIcon}
               alt="YouTube"
               className="h-12 w-12 object-contain"
             />
+            <span className="text-muted-foreground text-sm">@geofast_</span>
           </a>
-          
         </CardContent>
       </Card>
+
 
 
     </div>
