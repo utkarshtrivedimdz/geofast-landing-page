@@ -9,7 +9,6 @@ import {
   CardTitle,
   CardFooter,
 } from "@/components/ui/card";
-import { Linkedin } from "lucide-react";
 import battleOfNationsLogo from "../assets/playstore_logo.png";
 import image_playstore from "../assets/playstore.webp";
 import image_appstore from "../assets/appstore.webp";
@@ -61,23 +60,6 @@ export const HeroCards = () => {
             "I want to reach players in every country on Earth."
           </p>
         </CardContent>
-      
-        <CardFooter>
-          <div>
-            <a
-              rel="noreferrer noopener"
-              href="https://www.linkedin.com/in/valentijn-hoornaert-a6a511343"
-              target="_blank"
-              className={buttonVariants({
-                variant: "ghost",
-                size: "sm",
-              })}
-            >
-              <span className="sr-only">Linkedin icon</span>
-              <Linkedin size="20" />
-            </a>
-          </div>
-        </CardFooter>
       </Card>
 
       {/* Pricing */}
@@ -144,7 +126,7 @@ export const HeroCards = () => {
       </Card>
 
      {/* Community Card */}
-      <Card className="absolute right-[20px] top-[300px] w-80 drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+      <Card className="absolute right-[20px] top-[260px] w-80 drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <div className="text-center space-y-2">
             <CardTitle className="text-xl font-bold">
