@@ -27,8 +27,12 @@ const teamList: TeamProps[] = [
     imageUrl: "https://github.com/geofast.png",
     name: "Valentijn Hoornaert",
     position: "Founder & CEO",
-    intro: "Thinking about my next move in my thinking chair.",
+    intro: "I'm your huckleberry.",
     socialNetworks: [
+      {
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/valentijn-hoornaert-a6a511343",
+      },
     ],
   },
   {
