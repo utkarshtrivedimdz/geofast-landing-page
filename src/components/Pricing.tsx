@@ -8,7 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-// Importing role-specific icons
+// Import icons
 import developerIcon from "../assets/developer.webp";
 import gameplayIcon from "../assets/gameplay.webp";
 import artistIcon from "../assets/artist.webp";
@@ -25,7 +25,8 @@ interface PricingProps {
   popular: PopularPlanType;
   description: string;
   buttonText: string;
-  icon: string; // New property for role-specific icon
+  icon: string;
+  mailto: string; // Email link for each role
 }
 
 const pricingList: PricingProps[] = [
@@ -34,35 +35,40 @@ const pricingList: PricingProps[] = [
     popular: PopularPlanType.NO,
     description: "Develop engaging gameplay and mechanics for our games.",
     buttonText: "Apply Now",
-    icon: developerIcon, // Icon for Game Developer
+    icon: developerIcon,
+    mailto: "mailto:help@geofastgames.com?subject=Geofast Games Application for Game Developer", // Pre-filled email
   },
   {
     title: "Gameplay Writer",
     popular: PopularPlanType.NO,
     description: "Design exciting new gameplay features.",
     buttonText: "Apply Now",
-    icon: gameplayIcon, // Icon for Gameplay Writer
+    icon: gameplayIcon,
+    mailto: "mailto:help@geofastgames.com?subject=Geofast Games Application for Gameplay Writer", // Pre-filled email
   },
   {
     title: "Game Artist",
     popular: PopularPlanType.NO,
     description: "Create skins, effects, and visuals to bring our games to life.",
     buttonText: "Apply Now",
-    icon: artistIcon, // Icon for Game Artist
+    icon: artistIcon,
+    mailto: "mailto:help@geofastgames.com?subject=Geofast Games Application for Game Artist", // Pre-filled email
   },
   {
     title: "Marketing Specialist",
     popular: PopularPlanType.NO,
     description: "Drive user acquisition and manage marketing campaigns.",
     buttonText: "Apply Now",
-    icon: marketingIcon, // Icon for Marketing Specialist
+    icon: marketingIcon,
+    mailto: "mailto:help@geofastgames.com?subject=Geofast Games Application for Marketing Specialist", // Pre-filled email
   },
   {
     title: "Community Manager",
     popular: PopularPlanType.NO,
     description: "Engage with players and manage our social media presence.",
     buttonText: "Apply Now",
-    icon: communityIcon, // Icon for Community Manager
+    icon: communityIcon,
+    mailto: "mailto:help@geofastgames.com?subject=Geofast Games Application for Community Manager", // Pre-filled email
   },
 ];
 
@@ -107,7 +113,9 @@ export const Pricing = () => {
               <CardDescription>{pricing.description}</CardDescription>
             </CardHeader>
             <CardContent>
-              <Button className="w-full">{pricing.buttonText}</Button>
+              <a href={pricing.mailto}>
+                <Button className="w-full">{pricing.buttonText}</Button>
+              </a>
             </CardContent>
           </Card>
         ))}
