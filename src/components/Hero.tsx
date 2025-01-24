@@ -4,43 +4,92 @@ import instagramIcon from "../assets/instagram_green.webp";
 import youtubeIcon from "../assets/youtube_green.webp";
 import playstoreIcon from "../assets/playstore2.webp";
 import appstoreIcon from "../assets/appstore2.webp";
-import revivalIcon from "../assets/revivalb.webp";
-import grenadeIcon from "../assets/grenadeb.webp";
-import heartIcon from "../assets/heartb.webp";
-import poisonIcon from "../assets/poisonb.webp";
-import allianceIcon from "../assets/alliance2b.webp";
+import revivalIcon from "../assets/revival.webp";
+import grenadeIcon from "../assets/grenade.webp";
+import heartIcon from "../assets/heart.webp";
+import poisonIcon from "../assets/poison.webp";
+import allianceIcon from "../assets/alliance2.webp";
+import revivalBIcon from "../assets/revivalb.webp";
+import grenadeBIcon from "../assets/grenadeb.webp";
+import heartBIcon from "../assets/heartb.webp";
+import poisonBIcon from "../assets/poisonb.webp";
+import allianceBIcon from "../assets/alliance2b.webp";
 
 export const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
       <div className="text-start space-y-6">
-        {/* New Icon Row */}
+        {/* Icon Row with Hover Effect */}
         <div className="flex justify-start gap-6">
-          <img
-            src={revivalIcon}
-            alt="Revival"
-            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
-          />
-          <img
-            src={grenadeIcon}
-            alt="Grenade"
-            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
-          />
-          <img
-            src={heartIcon}
-            alt="Heart"
-            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
-          />
-          <img
-            src={poisonIcon}
-            alt="Poison"
-            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
-          />
-          <img
-            src={allianceIcon}
-            alt="Alliance"
-            className="h-10 w-10 object-contain opacity-50 hover:opacity-100 transition"
-          />
+          {/* Revival Icon */}
+          <div className="relative">
+            <img
+              src={revivalBIcon}
+              alt="Revival"
+              className="h-10 w-10 object-contain opacity-50 hover:opacity-0 transition-opacity absolute"
+            />
+            <img
+              src={revivalIcon}
+              alt="Revival Hover"
+              className="h-10 w-10 object-contain opacity-0 hover:opacity-100 transition-opacity"
+            />
+          </div>
+
+          {/* Grenade Icon */}
+          <div className="relative">
+            <img
+              src={grenadeBIcon}
+              alt="Grenade"
+              className="h-10 w-10 object-contain opacity-50 hover:opacity-0 transition-opacity absolute"
+            />
+            <img
+              src={grenadeIcon}
+              alt="Grenade Hover"
+              className="h-10 w-10 object-contain opacity-0 hover:opacity-100 transition-opacity"
+            />
+          </div>
+
+          {/* Heart Icon */}
+          <div className="relative">
+            <img
+              src={heartBIcon}
+              alt="Heart"
+              className="h-10 w-10 object-contain opacity-50 hover:opacity-0 transition-opacity absolute"
+            />
+            <img
+              src={heartIcon}
+              alt="Heart Hover"
+              className="h-10 w-10 object-contain opacity-0 hover:opacity-100 transition-opacity"
+            />
+          </div>
+
+          {/* Poison Icon */}
+          <div className="relative">
+            <img
+              src={poisonBIcon}
+              alt="Poison"
+              className="h-10 w-10 object-contain opacity-50 hover:opacity-0 transition-opacity absolute"
+            />
+            <img
+              src={poisonIcon}
+              alt="Poison Hover"
+              className="h-10 w-10 object-contain opacity-0 hover:opacity-100 transition-opacity"
+            />
+          </div>
+
+          {/* Alliance Icon */}
+          <div className="relative">
+            <img
+              src={allianceBIcon}
+              alt="Alliance"
+              className="h-10 w-10 object-contain opacity-50 hover:opacity-0 transition-opacity absolute"
+            />
+            <img
+              src={allianceIcon}
+              alt="Alliance Hover"
+              className="h-10 w-10 object-contain opacity-0 hover:opacity-100 transition-opacity"
+            />
+          </div>
         </div>
 
 
