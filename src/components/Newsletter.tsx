@@ -1,4 +1,4 @@
-export const Contact = () => {
+export const Newsletter = () => {
   return (
     <section id="contact">
       <hr className="w-11/12 mx-auto" />
