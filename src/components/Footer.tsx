@@ -103,7 +103,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          <div>&copy; Copyright © 2025 Geofast Games. All rights reserved.</div>
+          <div>&copy; 2025 Geofast Games. All rights reserved.</div>
         </h3>
       </section>
     </footer>
