@@ -1,5 +1,8 @@
 import { Button } from "./ui/button";
 import { HeroCards } from "./HeroCards";
+import tiktokIcon from "../assets/tiktok_green.webp";
+import instagramIcon from "../assets/instagram_green.webp";
+import youtubeIcon from "../assets/youtube_green.webp";
 
 export const Hero = () => {
   return (
@@ -26,14 +29,52 @@ export const Hero = () => {
           engaging and innovative mobile games. Our latest hit, Battle of
           Nations, has taken the word game market by storm.TESTESTEST
         </p>
+
         <a href="#newsletter">
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button className="w-full md:w-1/3">TESTEST</Button>
           </div>
         </a>
+
+        {/* Social Media Icons */}
+        <div className="flex justify-center lg:justify-start gap-6 mt-6">
+          <a
+            href="https://www.tiktok.com/@geofast_"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={tiktokIcon}
+              alt="TikTok"
+              className="h-10 w-10 object-contain"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/geofast_/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={instagramIcon}
+              alt="Instagram"
+              className="h-10 w-10 object-contain"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@geofast_"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={youtubeIcon}
+              alt="YouTube"
+              className="h-10 w-10 object-contain"
+            />
+          </a>
+        </div>
       </div>
 
-      {/* Hero cards sections */}
+      {/* Hero cards section */}
       <div className="z-10">
         <HeroCards />
       </div>
