@@ -39,7 +39,7 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
 
-        <CardContent>"If you’re persistent and ask the right questions, you can build just about anything."</CardContent>
+        <CardContent>"You can build just about anything."</CardContent>
       </Card>
 
       {/* Team */}
@@ -58,7 +58,7 @@ export const HeroCards = () => {
       
         <CardContent className="text-center pb-2">
           <p>
-            "My goal is to create mobile games that are worldwide and accessible, reaching players in every country on Earth."
+            "I want to reach players in every country on Earth."
           </p>
         </CardContent>
       
