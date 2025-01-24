@@ -1,4 +1,5 @@
 import { Statistics } from "./Statistics";
+import pieChart from "../assets/pie.webp"; // Import the WEBP image
 
 export const About = () => {
   return (
@@ -31,6 +32,15 @@ export const About = () => {
 
             <Statistics />
           </div>
+        </div>
+
+        {/* Add the pie chart image below the text */}
+        <div className="flex justify-center mt-8">
+          <img
+            src={pieChart}
+            alt="Pie chart showing audience by country"
+            className="w-full max-w-3xl rounded-lg"
+          />
         </div>
       </div>
     </section>
