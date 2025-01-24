@@ -178,8 +178,8 @@ export const HeroCards = () => {
         </CardFooter>
       </Card>
 
-      {/* Community Card */}
-      <Card className="absolute w-[350px] -right-[10px] bottom-[10px] drop-shadow-xl shadow-black/10 dark:shadow-white/10">
+     {/* Community Card */}
+      <Card className="absolute right-[20px] top-[300px] w-80 drop-shadow-xl shadow-black/10 dark:shadow-white/10">
         <CardHeader>
           <div className="text-center space-y-2">
             <CardTitle className="text-xl font-bold">
@@ -189,13 +189,13 @@ export const HeroCards = () => {
           </div>
         </CardHeader>
       
-        <CardContent className="flex flex-col gap-4 mt-4">
+        <CardContent className="flex flex-col items-center gap-4 mt-4">
           {/* TikTok */}
           <a
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.tiktok.com/@geofast_"
-            className="flex items-center gap-4"
+            className="flex items-center justify-center gap-4"
           >
             <img
               src={tiktokIcon}
@@ -210,7 +210,7 @@ export const HeroCards = () => {
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.instagram.com/geofast_/"
-            className="flex items-center gap-4"
+            className="flex items-center justify-center gap-4"
           >
             <img
               src={instagramIcon}
@@ -225,7 +225,7 @@ export const HeroCards = () => {
             rel="noreferrer noopener"
             target="_blank"
             href="https://www.youtube.com/@geofast_"
-            className="flex items-center gap-4"
+            className="flex items-center justify-center gap-4"
           >
             <img
               src={youtubeIcon}
@@ -236,7 +236,6 @@ export const HeroCards = () => {
           </a>
         </CardContent>
       </Card>
-
 
 
     </div>
