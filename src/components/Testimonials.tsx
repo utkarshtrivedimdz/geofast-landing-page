@@ -14,38 +14,37 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    name: "Memo",
-    userName: "@memo",
-    comment: "A good and wonderful game that I advise everyone to play",
+    name: "Футбол Кубок и лига",
+    comment: "The game is awesome, I’ve been watching you since TT.",
   },
   {
-    name: "Flyingbum077 And more",
+    name: "Kamil Wyszynski",
     userName: "@flyingbum077",
     comment:
-      "Played the hour it came out easy and fun to use. Can't wait for the online mode",
+      "First person to review this game and I must say, this is brilliant.",
+  },
+  {
+    name: "Pau Robles",
+    userName: "@crazyking",
+    comment:
+      "The game is very good, it would be cool to be able to choose a country and with that, make a Campaign mode, in which you could improve that country, and unlock heart improvements. Keep it up.",
+  },
+  {
+    name: "Daniel Simões",
+    userName: "@hot_jupiter",
+    comment:
+      "Incredible and sensational game, a great pastime. I recommend it for people who like geopolitics and at the same time want to be distracted by something.",
   },
   {
     name: "Servula Pacheco",
-    userName: "@crazyking",
+    userName: "@jonathan_carbajal",
     comment:
       "Geofast is amazing, congratulations on the incredible work! Keep evolving the game!",
   },
   {
-    name: "Mr Hot JupiterGC",
-    userName: "@hot_jupiter",
-    comment:
-      "My friend actually played this game and introduced this game to me cuz we're both (geographic enthusiasts). It is a fun game too and thank you for creating this masterpiece.",
-  },
-  {
     name: "Jonathan Carbajal",
-    userName: "@jonathan_carbajal",
-    comment:
-      "Very fun and addictive, I bought the sandbox pass 10 minutes in and I'm having lots of fun",
-  },
-  {
-    name: "Jack",
     userName: "@jack_dunker",
-    comment: "I was an og follower on TikTok",
+    comment: "Very fun and addictive, I bought the sandbox pass 10 minutes in and I'm having lots of fun.",
   },
 ];
 
