@@ -64,7 +64,7 @@ export const Features = () => {
         <img
           src={appIcon}
           alt="Geofast App Icon"
-          className="w-24 h-24 mx-auto rounded-lg mb-4" // Centered and styled with rounded corners
+          className="w-32 h-32 mx-auto rounded-2xl mb-6" // Increased size and rounded corners
         />
         <h2 className="text-3xl lg:text-4xl font-bold">
           Geofast:{" "}
