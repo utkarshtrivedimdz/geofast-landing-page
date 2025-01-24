@@ -4,11 +4,46 @@ import instagramIcon from "../assets/instagram_green.webp";
 import youtubeIcon from "../assets/youtube_green.webp";
 import playstoreIcon from "../assets/playstore2.webp";
 import appstoreIcon from "../assets/appstore2.webp";
+import revivalIcon from "../assets/revival.webp";
+import grenadeIcon from "../assets/grenade.webp";
+import heartIcon from "../assets/heart.webp";
+import poisonIcon from "../assets/poison.webp";
+import allianceIcon from "../assets/alliance2.webp";
 
 export const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
       <div className="text-start space-y-6">
+        {/* New Icon Row */}
+        <div className="flex justify-start gap-6">
+          <img
+            src={revivalIcon}
+            alt="Revival"
+            className="h-10 w-10 object-contain"
+          />
+          <img
+            src={grenadeIcon}
+            alt="Grenade"
+            className="h-10 w-10 object-contain"
+          />
+          <img
+            src={heartIcon}
+            alt="Heart"
+            className="h-10 w-10 object-contain"
+          />
+          <img
+            src={poisonIcon}
+            alt="Poison"
+            className="h-10 w-10 object-contain"
+          />
+          <img
+            src={allianceIcon}
+            alt="Alliance"
+            className="h-10 w-10 object-contain"
+          />
+        </div>
+
+        {/* Title */}
         <main className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold">
           <h1 className="inline">
             <span className="inline bg-gradient-to-r from-[#F596D3]  to-[#D247BF] text-transparent bg-clip-text">
