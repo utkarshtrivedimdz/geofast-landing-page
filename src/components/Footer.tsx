@@ -103,18 +103,7 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          <div>&copy; 2025 Geofast Games</div>
-          <div>
-            Landing page made by{" "}
-            <a
-              rel="noreferrer noopener"
-              target="_blank"
-              href="https://www.linkedin.com/in/utkarshtrivedi/"
-              className="text-primary transition-all border-primary hover:border-b-2"
-            >
-              Utkarsh Trivedi
-            </a>
-          </div>
+          <div>&copy; Copyright © 2025 Geofast Games. All rights reserved.</div>
         </h3>
       </section>
     </footer>
