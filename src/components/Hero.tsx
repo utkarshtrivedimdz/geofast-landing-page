@@ -4,11 +4,11 @@ import instagramIcon from "../assets/instagram_green.webp";
 import youtubeIcon from "../assets/youtube_green.webp";
 import playstoreIcon from "../assets/playstore2.webp";
 import appstoreIcon from "../assets/appstore2.webp";
-import revivalIcon from "../assets/revival.webp";
-import grenadeIcon from "../assets/grenade.webp";
-import heartIcon from "../assets/heart.webp";
-import poisonIcon from "../assets/poison.webp";
-import allianceIcon from "../assets/alliance2.webp";
+import revivalIcon from "../assets/revivalb.webp";
+import grenadeIcon from "../assets/grenadeb.webp";
+import heartIcon from "../assets/heartb.webp";
+import poisonIcon from "../assets/poisonb.webp";
+import allianceIcon from "../assets/alliance2b.webp";
 
 export const Hero = () => {
   return (
@@ -19,29 +19,30 @@ export const Hero = () => {
           <img
             src={revivalIcon}
             alt="Revival"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain opacity-50"
           />
           <img
             src={grenadeIcon}
             alt="Grenade"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain opacity-50"
           />
           <img
             src={heartIcon}
             alt="Heart"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain opacity-50"
           />
           <img
             src={poisonIcon}
             alt="Poison"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain opacity-50"
           />
           <img
             src={allianceIcon}
             alt="Alliance"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 object-contain opacity-50"
           />
         </div>
+
 
         {/* Title */}
         <main className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl font-bold">
