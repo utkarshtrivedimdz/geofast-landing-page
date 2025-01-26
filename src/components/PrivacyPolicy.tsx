@@ -21,7 +21,7 @@ const policyData: PolicySectionProps[] = [
       </div>
     ),
   },
-  {
+   {
     title: "Data Collection and Use",
     content: (
       <div>
@@ -40,7 +40,15 @@ const policyData: PolicySectionProps[] = [
               <li>Product interaction data (e.g., ad clicks and impressions)</li>
             </ul>
             This data is used for third-party advertising, ad performance
-            measurement, and analytics. For details on how AdMob handles data, please review their privacy policy.
+            measurement, and analytics. For details on how AdMob handles data, please review their 
+            <a 
+              href="https://policies.google.com/privacy" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-primary hover:underline"
+            >
+              Privacy Policy
+            </a>.
           </li>
           <li>
             <strong>In-App Analytics</strong> - We collect product interaction
