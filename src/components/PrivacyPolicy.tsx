@@ -67,6 +67,21 @@ const policyData: PolicySectionProps[] = [
     ),
   },
   {
+    title: "Tracking Disclosure",
+    content: (
+      <div>
+        Our app uses <strong>AdMob</strong> and in-app analytics, which involve
+        tracking for the following purposes:
+        <ul className="list-disc pl-6">
+          <li>Displaying third-party ads</li>
+          <li>Measuring ad performance</li>
+          <li>Linking ad-related data to Third-Party Data for personalized advertising</li>
+          <li>Evaluating gameplay behavior to improve app features</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     title: "Children's Privacy",
     content: (
       <div>
@@ -81,21 +96,6 @@ const policyData: PolicySectionProps[] = [
         <br />
         Please note that this app includes ads, in-app purchases, analytics,
         and tracking.
-      </div>
-    ),
-  },
-  {
-    title: "Tracking Disclosure",
-    content: (
-      <div>
-        Our app uses <strong>AdMob</strong> and in-app analytics, which involve
-        tracking for the following purposes:
-        <ul className="list-disc pl-6">
-          <li>Displaying third-party ads</li>
-          <li>Measuring ad performance</li>
-          <li>Linking ad-related data to Third-Party Data for personalized advertising</li>
-          <li>Evaluating gameplay behavior to improve app features</li>
-        </ul>
       </div>
     ),
   },
