@@ -22,7 +22,7 @@ const policyData: PolicySectionProps[] = [
     ),
   },
   {
-    title: "Information Collection and Use",
+    title: "Data Collection and Use",
     content: (
       <div>
         <em>Geofast: Battle of Nations</em> collects and uses data to improve your
@@ -63,6 +63,20 @@ const policyData: PolicySectionProps[] = [
             own privacy policies. Geofast Games does not access or store this data.
           </li>
         </ol>
+        <br />
+        <p>
+          By using <em>Geofast: Battle of Nations</em>, you consent to the collection 
+          and processing of data as described in this policy. Users can adjust their 
+          ad preferences and tracking permissions through their device settings.
+        </p>
+      </div>
+    ),
+  },
+  {
+    title: "Data Security",
+    content: (
+      <div>
+        We take appropriate measures to protect the data collected from unauthorized access, use, or disclosure. 
       </div>
     ),
   },
