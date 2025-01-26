@@ -53,29 +53,6 @@ const policyData: PolicySectionProps[] = [
     ),
   },
   {
-    title: "Permissions Used",
-    content: (
-      <div>
-        Our app requests the following permissions:
-        <br />
-        <br />
-        <ol className="list-decimal pl-6 space-y-2">
-          <li>
-            <strong>Access Network State</strong> - to check if there is an
-            internet connection available.
-          </li>
-          <li>
-            <strong>Internet</strong> - to load ads and handle in-app purchases.
-          </li>
-          <li>
-            <strong>Billing Service</strong> - to facilitate in-app purchases
-            through the Google Play billing service.
-          </li>
-        </ol>
-      </div>
-    ),
-  },
-  {
     title: "Children's Privacy",
     content: (
       <div>
@@ -136,7 +113,7 @@ export const PrivacyPolicy = () => {
       </h2>
 
       <p className="text-xl text-muted-foreground mb-8">
-        Last updated: January 23, 2025
+        Last updated: January 26, 2025
       </p>
 
       <div className="space-y-6">
