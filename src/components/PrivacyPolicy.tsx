@@ -40,7 +40,7 @@ const policyData: PolicySectionProps[] = [
               <li>Product interaction data (e.g., ad clicks and impressions)</li>
             </ul>
             This data is used for third-party advertising, ad performance
-            measurement, and analytics. For details on how AdMob handles data, please review their 
+            measurement, and analytics. For details on how AdMob handles data, please review their{" "} 
             <a 
               href="https://policies.google.com/privacy" 
               target="_blank" 
