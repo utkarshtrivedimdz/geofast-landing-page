@@ -113,11 +113,14 @@ const policyData: PolicySectionProps[] = [
         Play Store and the Apple App Store, which vary based on regional
         regulations.
         <br />
+        <br />
         We encourage parents to monitor children's activities online to ensure a
         safe experience.
         <br />
+        <br />
         Please note that this app includes ads, in-app purchases, analytics,
         and tracking.
+        <br />
         <br />
         Geofast Games does not knowingly collect personal data from children under the age of 13.
         If you believe that a child has provided us with data, please contact us so we can take steps to delete it.
