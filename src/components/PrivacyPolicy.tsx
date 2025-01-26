@@ -84,7 +84,9 @@ const policyData: PolicySectionProps[] = [
     title: "Data Security",
     content: (
       <div>
-        We take appropriate measures to protect the data collected from unauthorized access, use, or disclosure. 
+        We take appropriate measures to protect the data collected from unauthorized access, use, or disclosure.
+        This includes using secure communication protocols, and limiting data access to authorized personnel only.
+        Data collected by third-party providers is handled under their own privacy and security policies. 
       </div>
     ),
   },
