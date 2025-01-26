@@ -11,7 +11,7 @@ const policyData: PolicySectionProps[] = [
     title: "Introduction",
     content: (
       <div>
-        Welcome to Geofast: Battle of Nations, developed by Geofast. This
+        Welcome to Geofast: Battle of Nations, developed by Geofast Games. This
         Privacy Policy explains what types of information may be collected when
         you use our game and how this information is handled.
         <br />
