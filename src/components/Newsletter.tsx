@@ -22,7 +22,7 @@ export const Newsletter = () => {
           Us
         </h3>
         <p className="text-sm text-muted-foreground mt-2">help@geofastgames.com</p>
-        <div className="grid gap-8 mt-12 mx-auto md:w-[400px]">
+        <div className="grid gap-8 mt-12 mx-auto md:grid-cols-2 md:gap-12 md:w-3/4">
           {/* Questions Card */}
           <Card className="relative bg-muted/50 drop-shadow-md shadow-black/10">
             <img
