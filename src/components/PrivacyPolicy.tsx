@@ -22,33 +22,33 @@ const policyData: PolicySectionProps[] = [
     ),
   },
   {
-    title: "Information Collection and Use",
+    title: "Data Security",
     content: (
       <div>
-        Geofast: Battle of Nations does not directly collect or store any personal data. 
-        However, third-party services integrated into the game may collect limited data for specific purposes:
-        <br />
-        <br />
-        <ol className="list-decimal pl-6 space-y-2">
+        Data related to ads, analytics, and in-app purchases may be collected by:
+        <ul className="list-disc pl-6">
           <li>
-            <strong>AdMob</strong> - We use AdMob for interstitial ads within the
-            game, which may collect analytics information for ad-related
-            purposes. AdMob is operated by Google.
+            <strong>AdMob</strong>, for targeted advertising, ad performance
+            measurement, and analytics. AdMob is a third-party service operated
+            by Google.
           </li>
           <li>
-            <strong>Google Play Store</strong> - The Google Play Store may
-            collect data necessary for in-app purchases. Geofast does not access
-            or store this data.
+            <strong>In-App Analytics</strong>, implemented directly by Geofast
+            Games, to evaluate gameplay behavior, such as game mode preferences and
+            session frequency. This data is securely processed and not shared with
+            external parties.
           </li>
-           <li>
-            <strong>Apple App Store</strong> - The App Store may
-            collect data necessary for in-app purchases. Geofast does not access
-            or store this data.
+          <li>
+            <strong>Google Play Store</strong> and <strong>Apple App Store</strong>,
+            for in-app purchase processing under their respective privacy policies.
           </li>
-        </ol>
+        </ul>
         <br />
-        Your game progress is stored locally
-        on your device. We do not have access to or control over this data.
+        Geofast takes appropriate security measures to protect the data it processes.
+        <br />
+        <br />
+        For details on how third-party services handle data, please review their
+        respective privacy policies.
       </div>
     ),
   },
