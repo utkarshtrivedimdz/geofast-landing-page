@@ -22,33 +22,47 @@ const policyData: PolicySectionProps[] = [
     ),
   },
   {
-    title: "Data Security",
+    title: "Information Collection and Use",
     content: (
       <div>
-        Data related to ads, analytics, and in-app purchases may be collected by:
-        <ul className="list-disc pl-6">
-          <li>
-            <strong>AdMob</strong>, for targeted advertising, ad performance
-            measurement, and analytics. AdMob is a third-party service operated
-            by Google.
-          </li>
-          <li>
-            <strong>In-App Analytics</strong>, implemented directly by Geofast
-            Games, to evaluate gameplay behavior, such as game mode preferences and
-            session frequency. This data is securely processed and not shared with
-            external parties.
-          </li>
-          <li>
-            <strong>Google Play Store</strong> and <strong>Apple App Store</strong>,
-            for in-app purchase processing under their respective privacy policies.
-          </li>
-        </ul>
-        <br />
-        Geofast takes appropriate security measures to protect the data it processes.
+        <em>Geofast: Battle of Nations</em> collects and uses data to improve your
+        experience and support the app’s functionality. Below is a summary of
+        data collection practices:
         <br />
         <br />
-        For details on how third-party services handle data, please review their
-        respective privacy policies.
+        <ol className="list-decimal pl-6 space-y-2">
+          <li>
+            <strong>AdMob</strong> - AdMob is used to serve interstitial ads in
+            our game. It collects:
+            <ul className="list-disc pl-6">
+              <li>Device IDs (e.g., Advertising ID or IDFA)</li>
+              <li>Coarse location (based on IP address)</li>
+              <li>Product interaction data (e.g., ad clicks and impressions)</li>
+            </ul>
+            This data is used for third-party advertising, ad performance
+            measurement, and analytics. For details on how AdMob handles data, please review their privacy policy.
+          </li>
+          <li>
+            <strong>In-App Analytics</strong> - We collect product interaction
+            data, such as:
+            <ul className="list-disc pl-6">
+              <li>Frequency and duration of gameplay sessions</li>
+              <li>Game mode preferences</li>
+              <li>User engagement with game features</li>
+            </ul>
+            This data helps us:
+            <ul className="list-disc pl-6">
+              <li>Evaluate user behavior</li>
+              <li>Understand feature performance</li>
+              <li>Plan future updates and improvements</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Google Play Store & Apple App Store</strong> - These
+            platforms may collect data required for in-app purchases under their
+            own privacy policies. Geofast does not access or store this data.
+          </li>
+        </ol>
       </div>
     ),
   },
@@ -57,14 +71,31 @@ const policyData: PolicySectionProps[] = [
     content: (
       <div>
         Geofast: Battle of Nations may display age restrictions on the Google
-        Play Store and the Apple App Store, which vary based on regional regulations.
+        Play Store and the Apple App Store, which vary based on regional
+        regulations.
         <br />
         <br />
         We encourage parents to monitor children's activities online to ensure a
         safe experience.
         <br />
         <br />
-        Please note that this app includes ads and in-app purchases.
+        Please note that this app includes ads, in-app purchases, analytics,
+        and tracking.
+      </div>
+    ),
+  },
+  {
+    title: "Tracking Disclosure",
+    content: (
+      <div>
+        Our app uses <strong>AdMob</strong> and in-app analytics, which involve
+        tracking for the following purposes:
+        <ul className="list-disc pl-6">
+          <li>Displaying third-party ads</li>
+          <li>Measuring ad performance</li>
+          <li>Linking ad-related data to Third-Party Data for personalized advertising</li>
+          <li>Evaluating gameplay behavior to improve app features</li>
+        </ul>
       </div>
     ),
   },
@@ -99,7 +130,7 @@ export const PrivacyPolicy = () => {
       </h2>
 
       <p className="text-xl text-muted-foreground mb-8">
-        Last updated: January 26, 2025
+        Last updated: January 23, 2025
       </p>
 
       <div className="space-y-6">
