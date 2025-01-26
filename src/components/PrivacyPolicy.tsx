@@ -152,7 +152,7 @@ export const PrivacyPolicy = () => {
       </h2>
 
       <p className="text-xl text-muted-foreground mb-8">
-        Last updated: January 23, 2025
+        Last updated: January 26, 2025
       </p>
 
       <div className="space-y-6">
