@@ -69,20 +69,6 @@ const policyData: PolicySectionProps[] = [
     ),
   },
   {
-    title: "Data Security",
-    content: (
-      <div>
-        Geofast does not store any personal data on its own servers as we do not
-        collect data ourselves.
-        <br />
-        <br />
-        Data related to ads and in-app purchases may be collected by AdMob, 
-        Google Play Store, and the Apple App Store under their respective 
-        privacy policies.
-      </div>
-    ),
-  },
-  {
     title: "Changes to this Privacy Policy",
     content: (
       <div>
