@@ -60,7 +60,7 @@ const policyData: PolicySectionProps[] = [
           <li>
             <strong>Google Play Store & Apple App Store</strong> - These
             platforms may collect data required for in-app purchases under their
-            own privacy policies. Geofast does not access or store this data.
+            own privacy policies. Geofast Games does not access or store this data.
           </li>
         </ol>
       </div>
