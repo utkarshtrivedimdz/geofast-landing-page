@@ -39,7 +39,7 @@ const FeedbackPage = () => {
         <CardHeader>
           <CardTitle>Feedback Center</CardTitle>
           <CardDescription>
-            Please select the type of feedback you would like to provide
+            Please select the type of feedback you would like to provide for <em>Geofast: Battle of Nations</em>.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -51,11 +51,11 @@ const FeedbackPage = () => {
               <SelectValue placeholder="Select feedback type" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="bug">Report a Bug</SelectItem>
+              <SelectItem value="bug">Report a bug</SelectItem>
               <SelectItem value="translation">
-                Report Translation Error
+                Report a translation error
               </SelectItem>
-              <SelectItem value="suggestion">Make a Suggestion</SelectItem>
+              <SelectItem value="suggestion">Make a suggestion</SelectItem>
             </SelectContent>
           </Select>
         </CardContent>
