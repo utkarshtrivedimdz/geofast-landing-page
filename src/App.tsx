@@ -12,6 +12,7 @@ import { About } from "./components/About";
 import { Features } from "./components/Features";
 import { Footer } from "./components/Footer";
 import { Hero } from "./components/Hero";
+import { SuggestionsPage } from "./components/Suggestions";
 //import { HowItWorks } from "./components/HowItWorks";
 import { Navbar } from "./components/Navbar";
 import { Newsletter } from "./components/Newsletter";
@@ -23,6 +24,9 @@ import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import { ReportBugPage } from "./components/ReportBug";
+import { ReportTranslationErrorPage } from "./components/ReportTranslationError";
+import FeedbackPage from "./components/Feedback";
 
 function Home() {
   return (
@@ -58,6 +62,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
+        <Route path="/feedback" element={<FeedbackPage />} />
+        <Route path="/suggestions" element={<SuggestionsPage />} />
+        <Route
+          path="/reportTranslationError"
+          element={<ReportTranslationErrorPage />}
+        />
+        <Route path="/reportBug" element={<ReportBugPage />} />
         <Route path="/?/:page" element={<RedirectHandler />} />
       </Routes>
       <Footer />
