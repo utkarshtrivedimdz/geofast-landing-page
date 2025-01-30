@@ -27,6 +27,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 import { ReportBugPage } from "./components/ReportBug";
 import { ReportTranslationErrorPage } from "./components/ReportTranslationError";
 import FeedbackPage from "./components/Feedback";
+import { InternalLinksHandler } from "./components/InternalLinksHandler";
 
 function Home() {
   return (
@@ -59,6 +60,7 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <InternalLinksHandler />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy" element={<PrivacyPolicy />} />
