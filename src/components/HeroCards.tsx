@@ -98,7 +98,7 @@ export const HeroCards = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
+            href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
           >
             <img
               src={image_appstore}
