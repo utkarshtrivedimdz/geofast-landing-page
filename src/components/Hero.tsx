@@ -132,7 +132,7 @@ export const Hero = () => {
             />
           </a>
           <a
-            href="https://play.google.com/store/apps/dev?id=7184241621050076321"
+            href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
             target="_blank"
             rel="noreferrer"
           >
