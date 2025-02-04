@@ -107,7 +107,7 @@ export const Features = () => {
           />
         </a>
         <a
-          href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+          href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
           target="_blank"
           rel="noreferrer"
         >
