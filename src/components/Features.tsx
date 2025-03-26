@@ -42,7 +42,7 @@ const features: FeatureProps[] = [
   {
     title: "Sandbox",
     description:
-      "Design your own wars by tweaking country strengths and rules. Unlock limitless battle scenarios in this premium game mode!",
+      "Design your own wars by tweaking country strengths. Unlock limitless battle scenarios in this premium game mode!",
     image: image3,
     icon: sandboxIcon,
   },
