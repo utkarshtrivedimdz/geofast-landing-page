@@ -28,15 +28,12 @@ export const About = () => {
                 Geofast Games
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Geofast Games was founded in 2024 with a passion for creating engaging gaming experiences for a global audience.
-                Our first game, <em>Geofast: Battle of Nations</em>, was released on the Google Play Store on December 7, 2024.
-                Even before its release, the game went viral on TikTok and Instagram,
-                where videos about it garnered millions of views, building a wave of anticipation. 
-                This early excitement translated into a strong launch, with players from all over the world
-                joining to form a very diverse community. While the game is still young,
-                we're actively working on exciting new features to enhance the experience.
-                Additionally, <em>Geofast: Battle of Nations</em> will soon be available on the Apple App Store,
-                making it accessible to even more players worldwide.
+              Geofast Games was founded in 2024 with a passion for creating engaging gaming experiences for a global audience.
+              Our first game, Geofast: Battle of Nations, was released on the Google Play Store on December 7, 2024, and is now also available on the Apple App Store.
+              Even before its release, the game went viral on TikTok and Instagram, where videos garnered millions of views and built a wave of anticipation.
+              This early excitement translated into a strong launch, with players from all over the world joining to form a vibrant and diverse community.
+              Since launch, we've continued expanding the experience—most recently with the addition of full online multiplayer, allowing players to battle friends and rivals across the globe in real time.
+              Geofast: Battle of Nations is still just getting started, and we’re actively working on even more features, content, and updates to keep the war raging!
               </p>
             </div>
 
