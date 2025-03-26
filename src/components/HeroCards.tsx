@@ -73,7 +73,7 @@ export const HeroCards = () => {
             />
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">100k+</span>
+            <span className="text-3xl font-bold">130k+</span>
             <span className="text-muted-foreground"> installs</span>
           </div>
       
@@ -112,7 +112,7 @@ export const HeroCards = () => {
       
         <CardFooter className="flex">
           <div className="space-y-4">
-            {["Free", "Premium Sandbox Mode", "53 Supported Languages", "Frequent Updates"].map(
+            {["Free", "Online Multiplayer", "Premium Sandbox Mode", "57 Supported Languages", "Frequent Updates"].map(
               (benefit: string) => (
                 <span key={benefit} className="flex">
                   <Check className="text-green-500" />{" "}
