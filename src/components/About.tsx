@@ -32,8 +32,7 @@ export const About = () => {
               Our first game, Geofast: Battle of Nations, was released on the Google Play Store on December 7, 2024, and is now also available on the Apple App Store.
               Even before its release, the game went viral on TikTok and Instagram, where videos garnered millions of views and built a wave of anticipation.
               This early excitement translated into a strong launch, with players from all over the world joining to form a vibrant and diverse community.
-              Since launch, we've continued expanding the experience—most recently with the addition of full online multiplayer, allowing players to battle friends and rivals across the globe in real time.
-              <em>Geofast: Battle of Nations</em> is still just getting started, and we’re actively working on even more features, content, and updates to keep the war raging!
+              Since launch, we've continued expanding the experience—most recently with the addition of full online multiplayer, allowing players to battle friends and rivals across the globe in real time. <em>Geofast: Battle of Nations</em> is still just getting started, and we’re actively working on even more features, content, and updates to keep the war raging!
               </p>
             </div>
 
