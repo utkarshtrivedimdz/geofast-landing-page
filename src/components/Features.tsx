@@ -28,7 +28,7 @@ const features: FeatureProps[] = [
   {
     title: "Online Multiplayer",
     description:
-      "Host or join online battles, pick your country, and clash with players worldwide! Strategize—or taunt—using the in-game chat and prove your nation’s dominance.",
+      "Battle players from around the world! Host or join lobbies, pick your country, and use the in-game chat to strategize—or taunt—your rivals.",
     image: image1,
     icon: onlineIcon,
   },
