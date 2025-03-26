@@ -50,9 +50,9 @@ const features: FeatureProps[] = [
 
 const featureList: string[] = [
   "Battle Royale",
+  "Online Multiplayer",
   "Geopolitics",
   "Strategy",
-  "Minimalist",
   "Mobile",
 ];
 
@@ -76,11 +76,8 @@ export const Features = () => {
 
       {/* Descriptive text under the title */}
       <p className="text-muted-foreground md:text-center text-lg mx-auto max-w-3xl">
-        Pick a nation and conquer the world in a thrilling battle royale showdown!<br />
-        In <em>Geofast: Battle of Nations</em>, select from all real-world countries, each with unique strengths,
-        and fight until only one remains!
-        Discover special shots like grenades,
-        nukes, poison spells and revival spells to turn the tide.
+        Pick a nation and conquer the world in a thrilling multiplayer battle royale!<br />
+        In <em>Geofast: Battle of Nations</em>, choose from real-world countries—each with unique strengths—and clash with players from around the globe in intense, strategic showdowns. Use powerful special shots like grenades, nukes, poison, and revival spells to outlast your rivals and emerge as the last nation standing!
       </p>
 
       <div className="flex flex-wrap md:justify-center gap-4">
