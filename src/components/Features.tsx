@@ -26,27 +26,28 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Single Player Mode",
+    title: "Online Multiplayer",
     description:
-      "Dominate the battleground in a quick battle, or embark on a campaign (coming soon)!",
+      "Host or join online battles, pick your country, and clash with players worldwide! Strategize—or taunt—using the in-game chat and prove your nation’s dominance.",
     image: image1,
     icon: singleIcon,
   },
   {
-    title: "Multiplayer Mode",
+    title: "Quick Battle",
     description:
-      "Challenge friends locally on one device or compete online (coming soon)!",
+      "Set up fast-paced battles and control multiple countries yourself or with friends on a single device. Perfect for quick, chaotic fun!",
     image: image2,
     icon: multiIcon,
   },
   {
-    title: "Sandbox Mode",
+    title: "Sandbox",
     description:
-      "Create custom battles with adjustable nation strengths (Premium feature).",
+      "Design your own wars by tweaking country strengths and rules. Unlock limitless battle scenarios in this premium game mode!",
     image: image3,
     icon: sandboxIcon,
   },
 ];
+
 
 const featureList: string[] = [
   "Battle Royale",
