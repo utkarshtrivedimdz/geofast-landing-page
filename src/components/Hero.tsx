@@ -148,6 +148,17 @@ export const Hero = () => {
         {/* Social Media Icons */}
         <div className="flex justify-start gap-6 mt-6">
           <a
+            href="https://discord.gg/czV5cM8rux"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={discordIcon}
+              alt="Discord"
+              className="h-10 w-10 object-contain"
+            />
+          </a>
+          <a
             href="https://www.tiktok.com/@geofast_"
             target="_blank"
             rel="noreferrer"
