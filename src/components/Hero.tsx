@@ -1,4 +1,5 @@
 import { HeroCards } from "./HeroCards";
+import discordIcon from "../assets/discord_green.webp";
 import tiktokIcon from "../assets/tiktok_green.webp";
 import instagramIcon from "../assets/instagram_green.webp";
 import youtubeIcon from "../assets/youtube_green.webp";
