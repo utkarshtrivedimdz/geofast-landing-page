@@ -11,6 +11,7 @@ import {
 import battleOfNationsLogo from "../assets/playstore_logo.png";
 import image_playstore from "../assets/playstore.webp";
 import image_appstore from "../assets/appstore.webp";
+import discordIcon from "../assets/discord_green.webp";
 import tiktokIcon from "../assets/tiktok_green.webp";
 import instagramIcon from "../assets/instagram_green.webp";
 import youtubeIcon from "../assets/youtube_green.webp";
@@ -136,6 +137,20 @@ export const HeroCards = () => {
         </CardHeader>
       
         <CardContent className="flex flex-col items-center gap-4 mt-4">
+          {/* Discord */}
+          <a
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://discord.gg/czV5cM8rux"
+            className="flex items-center justify-center gap-4"
+          >
+            <img
+              src={discordIcon}
+              alt="Discord"
+              className="h-12 w-12 object-contain"
+            />
+            <span className="text-muted-foreground text-sm">Geofast</span>
+          </a>
           {/* TikTok */}
           <a
             rel="noreferrer noopener"
