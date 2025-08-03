@@ -74,7 +74,7 @@ export const HeroCards = () => {
             />
           </CardTitle>
           <div>
-            <span className="text-3xl font-bold">250k+</span>
+            <span className="text-3xl font-bold">300k+</span>
             <span className="text-muted-foreground"> installs</span>
           </div>
       
