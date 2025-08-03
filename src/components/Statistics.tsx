@@ -6,7 +6,7 @@ export const Statistics = () => {
 
   const stats: statsProps[] = [
     {
-      quantity: "250K+",
+      quantity: "300K+",
       description: "Installs",
     },
     {
@@ -14,11 +14,11 @@ export const Statistics = () => {
       description: "Player Countries",
     },
     {
-      quantity: "100K+",
+      quantity: "110k+",
       description: "TikTok Followers",
     },
     {
-      quantity: "186M",
+      quantity: "196M",
       description: "TikTok Views",
     },
   ];
