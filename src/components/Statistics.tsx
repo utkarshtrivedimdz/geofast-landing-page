@@ -18,7 +18,7 @@ export const Statistics = () => {
       description: "TikTok Followers",
     },
     {
-      quantity: "196M",
+      quantity: "200M+",
       description: "TikTok Views",
     },
   ];
