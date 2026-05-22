@@ -125,7 +125,7 @@ export const Hero = () => {
             </a>
           </div>
           <p className="text-sm text-muted-foreground">
-            ⭐ Join 400K+ players worldwide
+            ⭐ Join 500K+ players worldwide
           </p>
         </div>
 
