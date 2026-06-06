@@ -80,7 +80,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
+              href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527?ct=website-footer"
               target="_blank"
               className="opacity-60 hover:opacity-100"
             >

@@ -88,7 +88,7 @@ export const HeroCards = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
+            href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&utm_source=website&utm_medium=organic&utm_campaign=hero_card"
           >
             <img
               src={image_playstore}
@@ -99,7 +99,7 @@ export const HeroCards = () => {
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
+            href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527?ct=website-hero_card"
           >
             <img
               src={image_appstore}

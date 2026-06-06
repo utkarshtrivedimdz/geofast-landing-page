@@ -44,7 +44,7 @@ export const StickyDownload = () => {
           <DropdownMenuContent align="center" className="w-64 mb-2">
             <DropdownMenuItem asChild>
               <a
-                href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
+                href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&utm_source=website&utm_medium=organic&utm_campaign=sticky_download"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center cursor-pointer py-3"
@@ -54,7 +54,7 @@ export const StickyDownload = () => {
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
               <a
-                href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
+                href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527?ct=website-sticky_download"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center cursor-pointer py-3"

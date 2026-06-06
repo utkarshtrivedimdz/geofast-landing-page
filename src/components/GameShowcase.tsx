@@ -1,63 +1,22 @@
 import { Badge } from "./ui/badge";
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import image_appstore from "../assets/appstore.webp";
 import image_playstore from "../assets/playstore.webp";
 import appIcon from "../assets/playstore_logo.png";
 
-// Feature screenshots
-import featureBattle from "../assets/feature_battle.webp";
-import featureRankings from "../assets/feature_rankings.webp";
-import featureCountry from "../assets/feature_country.webp";
-import featureWeapons from "../assets/feature_weapons.webp";
+import screenshot1 from "../assets/screenshot_1.webp";
+import screenshot2 from "../assets/screenshot_2.webp";
+import screenshot3 from "../assets/screenshot_3.webp";
+import screenshot4 from "../assets/screenshot_4.webp";
+import screenshot5 from "../assets/screenshot_5.webp";
+import screenshot6 from "../assets/screenshot_6.webp";
 
-// Feature icons
-import iconBattle from "../assets/quickbattle_green.webp";
-import iconRankings from "../assets/leaderboard.webp";
-import iconStrong from "../assets/strong.webp";
-import iconUpgrade from "../assets/upgrade.webp";
-
-interface FeatureProps {
-  title: string;
-  description: string;
-  image: string;
-  icon: string;
-}
-
-const features: FeatureProps[] = [
-  {
-    title: "Battle in Real-Time!",
-    description:
-      "Get matched automatically with players worldwide. Use grenades, nukes, poison, drones, and more to eliminate your rivals and be the last player standing. Make friends, form alliances, and defeat your enemies. Earn medals and battle rewards!",
-    image: featureBattle,
-    icon: iconBattle,
-  },
-  {
-    title: "Climb the Rankings!",
-    description:
-      "Compete in weekly World War seasons. Earn medals to rise through player rankings and lead your nation to glory on the nation leaderboards!",
-    image: featureRankings,
-    icon: iconRankings,
-  },
-  {
-    title: "Get Stronger!",
-    description:
-      "Invest in extra hearts and nukes to become harder to defeat. Become a heavyweight and dominate the battlefield!",
-    image: featureCountry,
-    icon: iconStrong,
-  },
-  {
-    title: "Unlock & Upgrade Weapons!",
-    description:
-      "Start with 6 core weapons and unlock 15 special weapons as you play. You have 3 special weapon slots, so find the perfect combo to defeat your opponents! Upgrade weapons to boost your chances.",
-    image: featureWeapons,
-    icon: iconUpgrade,
-  },
+const screenshots = [
+  { src: screenshot1, alt: "Fight For Your Country" },
+  { src: screenshot2, alt: "Conquer The World Map" },
+  { src: screenshot3, alt: "Unlock Powerful Weapons" },
+  { src: screenshot4, alt: "Lead Your Nation To Victory" },
+  { src: screenshot5, alt: "Battle Players Worldwide" },
+  { src: screenshot6, alt: "Collect Exclusive Skins" },
 ];
 
 const featureList: string[] = [
@@ -103,7 +62,7 @@ export const GameShowcase = () => {
       {/* App Store and Play Store Buttons */}
       <div className="flex justify-center gap-8 mt-8">
         <a
-          href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&pcampaignid=web_share"
+          href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&utm_source=website&utm_medium=organic&utm_campaign=showcase"
           target="_blank"
           rel="noreferrer"
         >
@@ -114,7 +73,7 @@ export const GameShowcase = () => {
           />
         </a>
         <a
-          href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
+          href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527?ct=website-showcase"
           target="_blank"
           rel="noreferrer"
         >
@@ -126,33 +85,15 @@ export const GameShowcase = () => {
         </a>
       </div>
 
-      {/* Feature Cards - 2x2 grid on desktop, 1 column on mobile */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {features.map(({ title, description, image, icon }: FeatureProps) => (
-          <Card key={title} className="flex flex-col">
-            <CardHeader>
-              <CardTitle className="text-xl flex items-center gap-2">
-                <img
-                  src={icon}
-                  alt={`${title} icon`}
-                  className="h-6 w-6"
-                />
-                {title}
-              </CardTitle>
-            </CardHeader>
-
-            <CardContent className="flex-grow">
-              <p className="text-muted-foreground">{description}</p>
-            </CardContent>
-
-            <CardFooter>
-              <img
-                src={image}
-                alt={title}
-                className="w-full max-w-[250px] mx-auto rounded-xl"
-              />
-            </CardFooter>
-          </Card>
+      {/* Screenshot gallery — horizontal scroll on mobile, 3-col grid on desktop */}
+      <div className="flex gap-4 overflow-x-auto pb-4 snap-x snap-mandatory md:grid md:grid-cols-3 md:overflow-visible md:pb-0">
+        {screenshots.map(({ src, alt }) => (
+          <img
+            key={alt}
+            src={src}
+            alt={alt}
+            className="snap-center flex-shrink-0 w-[220px] md:w-full rounded-2xl shadow-lg"
+          />
         ))}
       </div>
     </section>

@@ -100,7 +100,7 @@ export const Hero = () => {
           </h3>
           <div className="flex flex-col sm:flex-row justify-start gap-4">
             <a
-              href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations"
+              href="https://play.google.com/store/apps/details?id=com.geofast.geofastbattleofnations&utm_source=website&utm_medium=organic&utm_campaign=hero"
               target="_blank"
               rel="noreferrer"
               className="hover:scale-105 transition-transform"
@@ -112,7 +112,7 @@ export const Hero = () => {
               />
             </a>
             <a
-              href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527"
+              href="https://apps.apple.com/app/geofast-battle-of-nations/id6740595527?ct=website-hero"
               target="_blank"
               rel="noreferrer"
               className="hover:scale-105 transition-transform"
